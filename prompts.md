@@ -3,21 +3,21 @@
 - A vehicle with three or more bumper stickers
 - Any Canadian license plate
 - Any Mexican license plate
-- A sign marking a city, county, or state border
+- A sign marking a municipality border
+- A sign marking a county OR state border
 - Any historical marker or plaque
 - Any wildlife/animal warning sign
-- A bridge with the sign showing the bridge's name
 - A sign for any road named after any United States president
 - A sign for a road named after any kind of tree
 - A sign named for a place other than the one it is in
 - A sign for any road named Main
 - A sign for any highway concurrency (interstate/US highway/state highway/county road sharing the same roadway)
-- A sign indicating the border of something (municipality, township, county, state, etc.)
 - A sign with a population count on it
 - A sign with an elevation measurement on it
 - A sign with a date on it
 - A sign with a mistake on it (e.g. missing letter, spelling/grammar, factual inaccuracy)
-- A neon sign (signs in the neon style count)
+- A damaged sign
+- A neon sign (anything clearly in the neon style counts even if it's not true neon)
 - A sign advertising fireworks or fireworks store
 - A sign displaying the local current temperature
 - A sign displaying the local current time
@@ -30,7 +30,9 @@
 - Political campaign sign
 - Dead End/No Outlet sign
 - Any train station (metros/subways/light rail/etc. count)
+- Any bus stop or bus station (signed school bus stops count)
 - A roundabout/rotary
+- A street sign indicating commemerative/honorary naming of that roadway
 
 ## Easy license plate letter/number game, only one per card from this category
 - A license plate serial containing the letter A
@@ -88,15 +90,19 @@
 - A windmill (decorative or functional)
 - Any depiction of or a live bald eagle
 - A greenhouse (enclosure for growing plants)
-- Any amusement park (includes water parks)
+- Any amusement park (water parks count)
 - Advertisement for a musical event/concert
-- Pay phone or sign for a pay phone (does not have to be operational)
+- Pay phone, phone booth, or sign for either (if it's a sign, the phone doesn't have to still be there)
 - Any US state flag
 - A motel with exterior room entrances
 - A picture taken while clearly riding public transit of any kind (train/metro/subway/light rail, bus, etc.)
 - A building with an architectural dome/cupola
 - Any depiction of George Washington
 - Any depiction of Abraham Lincoln
+- Any county building
+- A commemorative/informational sign/plaque for a specific tree
+- A commemorative/informational sign/plaque for a specific bench
+- A sign indicating something was established on a date in or before 1950 (the thing doesn't have to still be extant or functional)
 
 ## Hard
 - Picture within or sign of US National Park (https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks)
