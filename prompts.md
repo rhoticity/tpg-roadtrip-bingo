@@ -28,6 +28,9 @@
 - Private property/no trespassing sign
 - A real rainbow or any depiction of a rainbow
 - Political campaign sign
+- Dead End/No Outlet sign
+- Any train station (metros/subways/light rail/etc. count)
+- A roundabout/rotary
 
 ## Easy license plate letter/number game, only one per card from this category
 - A license plate serial containing the letter A
@@ -87,17 +90,33 @@
 - A greenhouse (enclosure for growing plants)
 - Any amusement park (includes water parks)
 - Advertisement for a musical event/concert
+- Pay phone or sign for a pay phone (does not have to be operational)
+- Any US state flag
+- A motel with exterior room entrances
+- A picture taken while clearly riding public transit of any kind (train/metro/subway/light rail, bus, etc.)
+- A building with an architectural dome/cupola
+- Any depiction of George Washington
+- Any depiction of Abraham Lincoln
 
 ## Hard
 - Picture within or sign of US National Park (https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks)
 - Picture within or sign of US National Monument (https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments)
 - A mansard-roof Pizza Hut building (can be still operating as a Pizza Hut, have another business in it, or vacant)
 - An A-frame IHOP building (can be still operating as IHOP, have another business in it, or vacant)
-- Any depiction of or a live state bird in its state (e.g. Northern cardinal in Illinois)
-- Any city/municipal or county flag
-- Sign indicating a distance for something that is more than 250 miles
+- Any depiction of, or a live example of, a state bird in its state (e.g. Northern cardinal in Illinois) - https://en.wikipedia.org/wiki/List_of_U.S._state_birds
+- Any depiction of, or a live example of, a state flower in its state (e.g. California poppy in California) - https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers
+- Any depiction of, or a live example of, a state tree in its state (e.g. Sabal palmetto in South Carolina) - https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_trees
+- Any city/municipal or county flag - https://simple.wikipedia.org/wiki/Flags_of_cities_of_the_United_States ; https://commons.wikimedia.org/wiki/Flags_of_counties_and_municipalities_in_the_United_States
+- Sign indicating a distance more than 250 miles
 - Advertisement for a local radio station
 - Graffiti on a freight train car
-- A dirty vehicle someone has drawn/written in the dirt of
+- A dirty vehicle where someone has drawn/written in its dirt
 - A sign indicating a place is unincorporated
-- Military vehicle
+- Military vehicle (in use or decommissioned)
+- Any object or place claiming in visible signage or its Google Maps POI to be the World's Largest of whatever it is
+- A drive-in restaurant or movie theatre that calls itself a drive-in on its signage
+- A drawbridge/lift bridge
+- A train that's no longer on train tracks
+- A decommissioned flying vehicle (airplane, helicopter, blimp, etc.)
+- A railroad bridge
+- A horse-drawn vehicle
