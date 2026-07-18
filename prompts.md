@@ -3,7 +3,6 @@
 - A vehicle with three or more bumper stickers
 - Any Canadian license plate
 - Any Mexican license plate
-- Any international license plate (not US, Canada, Mexico)
 - A sign marking a city, county, or state border
 - Any historical marker or plaque
 - Any wildlife/animal warning sign
@@ -20,9 +19,15 @@
 - A sign with a mistake on it (e.g. missing letter, spelling/grammar, factual inaccuracy)
 - A neon sign (signs in the neon style count)
 - A sign advertising fireworks or fireworks store
+- A sign displaying the local current temperature
+- A sign displaying the local current time
 - Advertisement for Coca-Cola
 - Advertisement for any beer
-- Graffiti
+- A fountain (drinking or decorative)
+- A left hand exit
+- Private property/no trespassing sign
+- A real rainbow or any depiction of a rainbow
+- Political campaign sign
 
 ## Easy license plate letter/number game, only one per card from this category
 - A license plate serial containing the letter A
@@ -59,9 +64,40 @@
 - A license plate serial containing the numeral 9
 
 ## Medium
-- Any regional restaurant (defined as anything on this [list](https://en.wikipedia.org/wiki/Category:Regional_restaurant_chains_in_the_United_States) )
+- Any regional restaurant (anything on this [list](https://en.wikipedia.org/wiki/Category:Regional_restaurant_chains_in_the_United_States) )
 - Any US or Canada license plate that is not a "state standard" design (for ease of identification, "state standard" defined as the designs that are on the front page [here](https://licenseplates.cc/), even though there are others that are considered "standard")
-- A bilingual sign (more than two languages okay)
+- A bilingual sign (can have more than two languages)
+- Any international license plate (not US, Canada, Mexico)
+- Animal shelter
+- Mini-golf (putt-putt) course
+- National Register of Historic Places plaque/place (list: https://www.nps.gov/subjects/nationalregister/database-research.htm)
+- A non-US national flag
+- Advertisement for, fairgrounds/sign for, or the actual event of a state or county fair
+- A Bible verse reference or full text
+- Non-Christian religious building
+- Adopt-a-Highway sign
+- Produce stand (farmers' markets count)
+- Advertisement for a personal injury lawyer/firm
+- Any farm equipment
+- Any war or veterans' memorial
+- Sporting event center for any sport
+- A windsock (decorative or functional)
+- A windmill (decorative or functional)
+- Any depiction of or a live bald eagle
+- A greenhouse (enclosure for growing plants)
+- Any amusement park (includes water parks)
+- Advertisement for a musical event/concert
+
+## Hard
+- Picture within or sign of US National Park (https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks)
+- Picture within or sign of US National Monument (https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments)
+- A mansard-roof Pizza Hut building (can be still operating as a Pizza Hut, have another business in it, or vacant)
+- An A-frame IHOP building (can be still operating as IHOP, have another business in it, or vacant)
+- Any depiction of or a live state bird in its state (e.g. Northern cardinal in Illinois)
+- Any city/municipal or county flag
+- Sign indicating a distance for something that is more than 250 miles
+- Advertisement for a local radio station
+- Graffiti on a freight train car
+- A dirty vehicle someone has drawn/written in the dirt of
 - A sign indicating a place is unincorporated
 - Military vehicle
-- 
