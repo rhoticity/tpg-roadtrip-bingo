@@ -1,52 +1,67 @@
 ## Easy 
-A yellow automobile (taxis and school buses count)
-A vehicle with three or more bumper stickers
-A vehicle from Canada or Mexico
-A sign marking a city, county, or state border
-A mile marker ending in "0"
-A historical marker or plaque
-A sign warning about wildlife
-A bridge and the sign showing the bridge's name
-A road named after a United States president
-A route sign for both an Interstate and a U.S. Highway in the same photo
-A "Welcome to ___" sign
-A "Population ___" sign
-A sign for an unincorporated community
-A sign with an obvious typo or missing letter
-A sign written in two languages
-A neon sign
-A sign advertising fireworks
+- A yellow automobile (taxis and school buses count)
+- A vehicle with three or more bumper stickers
+- Any Canadian license plate
+- Any Mexican license plate
+- Any international license plate (not US, Canada, Mexico)
+- A sign marking a city, county, or state border
+- Any historical marker or plaque
+- Any wildlife/animal warning sign
+- A bridge with the sign showing the bridge's name
+- A sign for any road named after any United States president
+- A sign for a road named after any kind of tree
+- A sign named for a place other than the one it is in
+- A sign for any road named Main
+- A sign for any highway concurrency (interstate/US highway/state highway/county road sharing the same roadway)
+- A sign indicating the border of something (municipality, township, county, state, etc.)
+- A sign with a population count on it
+- A sign with an elevation measurement on it
+- A sign with a date on it
+- A sign with a mistake on it (e.g. missing letter, spelling/grammar, factual inaccuracy)
+- A neon sign (signs in the neon style count)
+- A sign advertising fireworks or fireworks store
+- Advertisement for Coca-Cola
+- Advertisement for any beer
+- Graffiti
 
-## Easy, only one per card from this category
-A license plate serial containing the letter A
-A license plate serial containing the letter B
-A license plate serial containing the letter C
-A license plate serial containing the letter D
-A license plate serial containing the letter E
-A license plate serial containing the letter F
-A license plate serial containing the letter G
-A license plate serial containing the letter H
-A license plate serial containing the letter J
-A license plate serial containing the letter K
-A license plate serial containing the letter L
-A license plate serial containing the letter M
-A license plate serial containing the letter N
-A license plate serial containing the letter P
-A license plate serial containing the letter Q
-A license plate serial containing the letter R
-A license plate serial containing the letter S
-A license plate serial containing the letter T
-A license plate serial containing the letter U
-A license plate serial containing the letter V
-A license plate serial containing the letter X
-A license plate serial containing the letter Y
-A license plate serial containing the letter Z
-A license plate serial containing the numeral 1
-A license plate serial containing the numeral 2
-A license plate serial containing the numeral 3
-A license plate serial containing the numeral 4
-A license plate serial containing the numeral 5
-A license plate serial containing the numeral 6
-A license plate serial containing the numeral 7
-A license plate serial containing the numeral 8
-A license plate serial containing the numeral 9
+## Easy license plate letter/number game, only one per card from this category
+- A license plate serial containing the letter A
+- A license plate serial containing the letter B
+- A license plate serial containing the letter C
+- A license plate serial containing the letter D
+- A license plate serial containing the letter E
+- A license plate serial containing the letter F
+- A license plate serial containing the letter G
+- A license plate serial containing the letter H
+- A license plate serial containing the letter J
+- A license plate serial containing the letter K
+- A license plate serial containing the letter L
+- A license plate serial containing the letter M
+- A license plate serial containing the letter N
+- A license plate serial containing the letter P
+- A license plate serial containing the letter Q
+- A license plate serial containing the letter R
+- A license plate serial containing the letter S
+- A license plate serial containing the letter T
+- A license plate serial containing the letter U
+- A license plate serial containing the letter V
+- A license plate serial containing the letter X
+- A license plate serial containing the letter Y
+- A license plate serial containing the letter Z
+- A license plate serial containing the numeral 1
+- A license plate serial containing the numeral 2
+- A license plate serial containing the numeral 3
+- A license plate serial containing the numeral 4
+- A license plate serial containing the numeral 5
+- A license plate serial containing the numeral 6
+- A license plate serial containing the numeral 7
+- A license plate serial containing the numeral 8
+- A license plate serial containing the numeral 9
+
+## Medium
+- Any regional restaurant (defined as anything on this [list](https://en.wikipedia.org/wiki/Category:Regional_restaurant_chains_in_the_United_States) )
+- Any US or Canada license plate that is not a "state standard" design (for ease of identification, "state standard" defined as the designs that are on the front page [here](https://licenseplates.cc/), even though there are others that are considered "standard")
+- A bilingual sign (more than two languages okay)
+- A sign indicating a place is unincorporated
+- Military vehicle
+- 
