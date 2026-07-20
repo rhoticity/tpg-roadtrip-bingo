@@ -31,8 +31,12 @@
 - Any bus stop or bus station (signed school bus stops count)
 - A roundabout/rotary
 - A street sign indicating commemerative/honorary naming of that roadway
-- Any wild or domestic bird
-- Any wild or domestic mammal except a cat or dog
+- Any wild or domestic bird (in captivity accepted, live)
+- Any wild or domestic mammal except a cat or dog (in captivity accepted, live)
+- Emergency vehicle
+- A water tower with writing/a logo on it
+- Any war or veterans' memorial
+- Sporting event center for any professional or college sport/team
 
 ## Easy license plate letter/number game, only one per card from this category
 - A license plate serial containing the letter A
@@ -83,11 +87,11 @@
 - Produce stand (farmers' markets count)
 - Advertisement for a personal injury lawyer/firm
 - Any farm equipment
-- Any war or veterans' memorial
-- Sporting event center for any sport
 - A windsock (decorative or functional)
 - A windmill (decorative or functional)
+- A well (decorative or functional)
 - Any depiction of or a live bald eagle
+- Any depiction of or a live goose
 - A greenhouse (enclosure for growing plants)
 - Any amusement park (water parks count)
 - Advertisement for a musical event/concert
@@ -98,6 +102,7 @@
 - A building with an architectural dome/cupola
 - Any depiction of George Washington
 - Any depiction of Abraham Lincoln
+- Sign or building for any fraternal organization (Elks, Masons, Odd Fellows, etc.)
 - Any county building
 - A commemorative/informational sign/plaque for a specific tree
 - A commemorative/informational sign/plaque for a specific bench
@@ -105,12 +110,14 @@
 - A sign for an unincorporated place
 - Any wild or captive amphibian or reptile
 - A picture of the thing a street is named for, visible from or located on that street (e.g. a sunset taken from Sunset Boulevard; an oak tree on Oak Street)
+- Any Canadian license plate
+- A civil defense/weather siren
 
 ## Hard
 - Picture within or sign of US National Park (https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks)
 - Picture within or sign of US National Monument (https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments)
-- A mansard-roof Pizza Hut building (can be still operating as a Pizza Hut, have another business in it, or vacant)
-- An A-frame IHOP building (can be still operating as IHOP, have another business in it, or vacant)
+- A mansard-roof Pizza Hut building (can be still operating as a Pizza Hut, have another business in it, or vacant; representative examples at https://usedtobeapizzahut.com/)
+- An A-frame IHOP building (can be still operating as IHOP, have another business in it, or vacant; representative examples at https://www.roadarch.com/eateries/ihop.html)
 - Any depiction of, or a live example of, a state bird in its state (e.g. Northern cardinal in Illinois) - https://en.wikipedia.org/wiki/List_of_U.S._state_birds
 - Any depiction of, or a live example of, a state flower in its state (e.g. California poppy in California) - https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers
 - Any depiction of, or a live example of, a state tree in its state (e.g. Sabal palmetto in South Carolina) - https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_trees
@@ -127,6 +134,5 @@
 - A decommissioned flying vehicle (airplane, helicopter, blimp, etc.)
 - A railroad bridge
 - A horse-drawn vehicle
-- Any Canadian license plate
 - Any Mexican license plate
 - Any international license plate (not US, Canada, Mexico - does not have to be current or attached to a vehicle)
