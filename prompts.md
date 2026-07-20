@@ -7,7 +7,7 @@
 - Any wildlife/animal warning sign
 - A sign for any road named after any United States president
 - A sign for a road named after any kind of tree
-- A sign named for a place other than the one it is in
+- A sign for a road named for a place other than the one it is in (e.g. Milwaukee Avenue in Chicago)
 - A sign for any road named Main
 - A sign for any highway concurrency (interstate/US highway/state highway/county road sharing the same roadway)
 - A sign with a population count on it
