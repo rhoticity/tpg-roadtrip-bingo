@@ -1,8 +1,6 @@
 ## Easy 
 - A yellow automobile (taxis and school buses count)
 - A vehicle with three or more bumper stickers
-- Any Canadian license plate
-- Any Mexican license plate
 - A sign marking a municipality border
 - A sign marking a county OR state border
 - Any historical marker or plaque
@@ -33,6 +31,8 @@
 - Any bus stop or bus station (signed school bus stops count)
 - A roundabout/rotary
 - A street sign indicating commemerative/honorary naming of that roadway
+- Any wild or domestic bird
+- Any wild or domestic mammal except a cat or dog
 
 ## Easy license plate letter/number game, only one per card from this category
 - A license plate serial containing the letter A
@@ -72,7 +72,6 @@
 - Any regional restaurant (anything on this [list](https://en.wikipedia.org/wiki/Category:Regional_restaurant_chains_in_the_United_States) )
 - Any US or Canada license plate that is not a "state standard" design (for ease of identification, "state standard" defined as the designs that are on the front page [here](https://licenseplates.cc/), even though there are others that are considered "standard")
 - A bilingual sign (can have more than two languages)
-- Any international license plate (not US, Canada, Mexico)
 - Animal shelter
 - Mini-golf (putt-putt) course
 - National Register of Historic Places plaque/place (list: https://www.nps.gov/subjects/nationalregister/database-research.htm)
@@ -103,6 +102,9 @@
 - A commemorative/informational sign/plaque for a specific tree
 - A commemorative/informational sign/plaque for a specific bench
 - A sign indicating something was established on a date in or before 1950 (the thing doesn't have to still be extant or functional)
+- A sign for an unincorporated place
+- Any wild or captive amphibian or reptile
+- A picture of the thing a street is named for, visible from or located on that street (e.g. a sunset taken from Sunset Boulevard; an oak tree on Oak Street)
 
 ## Hard
 - Picture within or sign of US National Park (https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks)
@@ -117,7 +119,6 @@
 - Advertisement for a local radio station
 - Graffiti on a freight train car
 - A dirty vehicle where someone has drawn/written in its dirt
-- A sign indicating a place is unincorporated
 - Military vehicle (in use or decommissioned)
 - Any object or place claiming in visible signage or its Google Maps POI to be the World's Largest of whatever it is
 - A drive-in restaurant or movie theatre that calls itself a drive-in on its signage
@@ -126,3 +127,6 @@
 - A decommissioned flying vehicle (airplane, helicopter, blimp, etc.)
 - A railroad bridge
 - A horse-drawn vehicle
+- Any Canadian license plate
+- Any Mexican license plate
+- Any international license plate (not US, Canada, Mexico - does not have to be current or attached to a vehicle)
