@@ -12,6 +12,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, 'GENERATE CARD')
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
