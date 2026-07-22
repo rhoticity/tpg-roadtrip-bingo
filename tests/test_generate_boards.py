@@ -103,6 +103,98 @@ class GenerateBoardsTests(unittest.TestCase):
             medium_prompt = prompts["Medium"][0]
             self.assertEqual(medium_prompt.text, "Medium prompt with a link")
             self.assertEqual(medium_prompt.urls, ("https://example.com/path",))
+            self.assertEqual(len(medium_prompt.inline_links), 1)
+            self.assertEqual(medium_prompt.inline_links[0].text, "link")
+            self.assertEqual(medium_prompt.inline_links[0].url, "https://example.com/path")
+
+    def test_extract_inline_links_handles_multiple_links_same_anchor(self) -> None:
+        prompt = "See [list](https://example.com/a) and also [list](https://example.com/b)"
+        links = generate_boards.extract_inline_links(prompt)
+        self.assertEqual(len(links), 2)
+        self.assertEqual(links[0].text, "list")
+        self.assertEqual(links[0].url, "https://example.com/a")
+        self.assertEqual(links[1].text, "list")
+        self.assertEqual(links[1].url, "https://example.com/b")
+
+    def test_metadata_round_trips_inline_links(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            metadata_path = Path(tmpdir) / "board.json"
+            original_cells = [
+                generate_boards.PromptCell(
+                    index=i,
+                    row=i // 5,
+                    col=i % 5,
+                    category="Medium",
+                    text="Any restaurant on this list",
+                    urls=("https://example.com/list",),
+                    inline_links=(generate_boards.InlineLink(text="list", url="https://example.com/list"),),
+                )
+                for i in range(25)
+                if i != generate_boards.CENTER_INDEX
+            ]
+            original_cells.insert(
+                generate_boards.CENTER_INDEX,
+                generate_boards.PromptCell(
+                    index=generate_boards.CENTER_INDEX,
+                    row=2,
+                    col=2,
+                    category=generate_boards.FREE_SPACE_CATEGORY,
+                    text=generate_boards.FREE_SPACE_TEXT,
+                ),
+            )
+            generate_boards.write_metadata("test", original_cells, metadata_path)
+            restored_cells = generate_boards.read_metadata(metadata_path)
+
+            cell_with_link = next(c for c in restored_cells if c.index == 0)
+            self.assertEqual(len(cell_with_link.inline_links), 1)
+            self.assertEqual(cell_with_link.inline_links[0].text, "list")
+            self.assertEqual(cell_with_link.inline_links[0].url, "https://example.com/list")
+
+    def test_metadata_backward_compat_no_inline_links(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            metadata_path = Path(tmpdir) / "board.json"
+            # Write metadata without inline_links (simulating old format)
+            import json
+            payload = {
+                "username": "old_user",
+                "generated_at": "2025-01-01T00:00:00+00:00",
+                "cells": [
+                    {
+                        "index": i,
+                        "row": i // 5,
+                        "col": i % 5,
+                        "category": "Easy",
+                        "text": f"Easy {i}",
+                        "urls": [],
+                    }
+                    for i in range(25)
+                ],
+            }
+            metadata_path.write_text(json.dumps(payload), encoding="utf-8")
+            restored_cells = generate_boards.read_metadata(metadata_path)
+            self.assertEqual(len(restored_cells), 25)
+            self.assertEqual(restored_cells[0].inline_links, ())
+
+    def test_build_randomized_cells_preserves_inline_links(self) -> None:
+        prompts_with_links = {
+            "Easy": [f"Easy {i}" for i in range(20)],
+            "Easy license plate letter/number game, only one per card from this category": [f"Plate {i}" for i in range(10)],
+            "Medium": [
+                generate_boards.PromptOption(
+                    text="A restaurant on this list",
+                    urls=("https://example.com",),
+                    inline_links=(generate_boards.InlineLink(text="list", url="https://example.com"),),
+                )
+            ]
+            + [f"Medium {i}" for i in range(1, 20)],
+            "Hard": [f"Hard {i}" for i in range(20)],
+        }
+        cells = generate_boards.build_randomized_cells(prompts_with_links, random.Random(1))
+        cells_with_links = [c for c in cells if c.inline_links]
+        self.assertGreater(len(cells_with_links), 0)
+        linked_cell = cells_with_links[0]
+        self.assertEqual(linked_cell.inline_links[0].text, "list")
+        self.assertEqual(linked_cell.inline_links[0].url, "https://example.com")
 
 
 if __name__ == "__main__":

@@ -32,6 +32,12 @@ BOARDS_DIR = ROOT / "boards"
 
 
 @dataclass(frozen=True)
+class InlineLink:
+    text: str
+    url: str
+
+
+@dataclass(frozen=True)
 class PromptCell:
     index: int
     row: int
@@ -39,12 +45,14 @@ class PromptCell:
     category: str
     text: str
     urls: tuple[str, ...] = ()
+    inline_links: tuple[InlineLink, ...] = ()
 
 
 @dataclass(frozen=True)
 class PromptOption:
     text: str
     urls: tuple[str, ...] = ()
+    inline_links: tuple[InlineLink, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -76,7 +84,11 @@ def parse_prompts(path: Path = PROMPTS_PATH) -> dict[str, list[PromptOption]]:
         if line.startswith("- ") and current_category:
             prompt_text = line[2:].strip()
             categories[current_category].append(
-                PromptOption(text=clean_prompt_text(prompt_text), urls=extract_prompt_links(prompt_text))
+                PromptOption(
+                    text=clean_prompt_text(prompt_text),
+                    urls=extract_prompt_links(prompt_text),
+                    inline_links=extract_inline_links(prompt_text),
+                )
             )
 
     missing = [category for category in CATEGORY_REQUIREMENTS if category not in categories]
@@ -104,6 +116,13 @@ def clean_prompt_text(prompt: str) -> str:
 
 def extract_prompt_links(prompt: str) -> tuple[str, ...]:
     return tuple(re.findall(r"\[[^\]]+\]\(([^)]+)\)", prompt))
+
+
+def extract_inline_links(prompt: str) -> tuple[InlineLink, ...]:
+    return tuple(
+        InlineLink(text=m.group(1), url=m.group(2))
+        for m in re.finditer(r"\[([^\]]+)\]\(([^)]+)\)", prompt)
+    )
 
 
 def sanitize_username(username: str) -> str:
@@ -155,7 +174,7 @@ def build_randomized_cells(
             )
             continue
         category, option = next(entry_iter)
-        cells.append(PromptCell(index=index, row=row, col=col, category=category, text=option.text, urls=option.urls))
+        cells.append(PromptCell(index=index, row=row, col=col, category=category, text=option.text, urls=option.urls, inline_links=option.inline_links))
 
     return cells
 
@@ -198,6 +217,110 @@ def fit_text(
             return font, lines
     font = load_font(12)
     return font, wrap_text(draw, text, font, max_width)
+
+
+def draw_text_with_inline_links(
+    draw: ImageDraw.ImageDraw,
+    lines: list[str],
+    font: ImageFont.FreeTypeFont | ImageFont.ImageFont,
+    inline_links: tuple[InlineLink, ...],
+    text_x: float,
+    text_y: float,
+    block_width: float,
+    spacing: int = 4,
+) -> list[tuple[str, float, float, float, float]]:
+    """
+    Render wrapped text lines with hyperlinked words drawn in blue with underlines.
+
+    Linked words are matched in the order they appear in *inline_links* so that
+    repeated anchor texts (e.g. two "list" links) are paired with the correct URL.
+
+    Returns a list of ``(url, x1, y1, x2, y2)`` tuples in image-pixel coordinates,
+    one entry per link occurrence found in the rendered text.
+    """
+    link_color = (17, 85, 204)  # blue, similar to a default browser link
+    underline_gap = 1  # pixels between the bottom of the glyph box and the underline
+    ascent, _ = font.getmetrics()
+    line_advance = ascent + spacing
+
+    # Find where each inline link sits within the joined line text.
+    # We join lines with a single space to mirror how wrap_text works.
+    full_text = " ".join(lines)
+    ordered_spans: list[tuple[int, int, str]] = []
+    search_from = 0
+    for link in inline_links:
+        idx = full_text.find(link.text, search_from)
+        if idx != -1:
+            ordered_spans.append((idx, idx + len(link.text), link.url))
+            search_from = idx + len(link.text)
+
+    # Map full_text positions to (line_index, char_index_within_line).
+    # The full_text is  lines[0] + " " + lines[1] + " " + …
+    pos_to_line: list[tuple[int, int] | None] = []
+    for li, line in enumerate(lines):
+        for ci in range(len(line)):
+            pos_to_line.append((li, ci))
+        if li < len(lines) - 1:
+            pos_to_line.append(None)  # the joining space
+
+    # Convert span positions to per-line spans.
+    line_spans: dict[int, list[tuple[int, int, str]]] = {}
+    for span_start, span_end, url in ordered_spans:
+        if span_start >= len(pos_to_line) or pos_to_line[span_start] is None:
+            continue
+        li, ci_start = pos_to_line[span_start]
+        last_char = span_end - 1
+        if last_char >= len(pos_to_line) or pos_to_line[last_char] is None:
+            continue
+        li_end, ci_end_inclusive = pos_to_line[last_char]
+        if li == li_end:
+            line_spans.setdefault(li, []).append((ci_start, ci_end_inclusive + 1, url))
+
+    image_link_rects: list[tuple[str, float, float, float, float]] = []
+
+    for li, line in enumerate(lines):
+        line_width = draw.textlength(line, font=font)
+        line_x = text_x + (block_width - line_width) / 2
+        line_draw_y = text_y + li * line_advance
+
+        line_bbox = draw.textbbox((0, 0), line or "A", font=font)
+        visual_y1 = line_draw_y + line_bbox[1]
+        visual_y2 = line_draw_y + line_bbox[3]
+
+        spans = sorted(line_spans.get(li, []))
+
+        if not spans:
+            draw.text((line_x, line_draw_y), line, fill="black", font=font)
+            continue
+
+        # Build ordered segments for this line.
+        segments: list[tuple[str, str | None]] = []
+        pos = 0
+        for cs, ce, url in spans:
+            if cs > pos:
+                segments.append((line[pos:cs], None))
+            segments.append((line[cs:ce], url))
+            pos = ce
+        if pos < len(line):
+            segments.append((line[pos:], None))
+
+        current_x = line_x
+        for seg_text, url in segments:
+            seg_width = draw.textlength(seg_text, font=font)
+            if url:
+                draw.text((current_x, line_draw_y), seg_text, fill=link_color, font=font)
+                underline_y = int(visual_y2) + underline_gap
+                draw.line(
+                    [(int(current_x), underline_y), (int(current_x + seg_width), underline_y)],
+                    fill=link_color,
+                    width=1,
+                )
+                image_link_rects.append((url, current_x, visual_y1, current_x + seg_width, visual_y2))
+            else:
+                draw.text((current_x, line_draw_y), seg_text, fill="black", font=font)
+            current_x += seg_width
+
+    return image_link_rects
 
 
 def render_board(username: str, cells: Iterable[PromptCell], output_path: Path) -> None:
@@ -252,6 +375,7 @@ def render_board(username: str, cells: Iterable[PromptCell], output_path: Path) 
         draw.line((grid_left, y, grid_right, y), fill="black", width=3)
 
     cell_list = list(cells)
+    cell_image_link_rects: dict[int, list[tuple[str, float, float, float, float]]] = {}
     for cell in cell_list:
         cell_left = grid_left + cell.col * cell_size
         cell_top = grid_top + cell.row * cell_size
@@ -279,7 +403,13 @@ def render_board(username: str, cells: Iterable[PromptCell], output_path: Path) 
         bbox = draw.multiline_textbbox((0, 0), wrapped_text, font=font, spacing=4, align="center")
         text_x = box[0] + ((box[2] - box[0]) - (bbox[2] - bbox[0])) / 2
         text_y = box[1] + ((box[3] - box[1]) - (bbox[3] - bbox[1])) / 2
-        draw.multiline_text((text_x, text_y), wrapped_text, fill="black", font=font, spacing=4, align="center")
+        if cell.inline_links:
+            block_width = bbox[2] - bbox[0]
+            cell_image_link_rects[cell.index] = draw_text_with_inline_links(
+                draw, lines, font, cell.inline_links, text_x, text_y, block_width
+            )
+        else:
+            draw.multiline_text((text_x, text_y), wrapped_text, fill="black", font=font, spacing=4, align="center")
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     image_bytes = io.BytesIO()
@@ -292,28 +422,28 @@ def render_board(username: str, cells: Iterable[PromptCell], output_path: Path) 
     pdf.drawImage(ImageReader(image_bytes), 0, 0, width=page_width, height=page_height, mask="auto")
 
     for cell in cell_list:
-        if not cell.urls:
-            continue
-        cell_left = grid_left + cell.col * cell_size
-        cell_top = grid_top + cell.row * cell_size
-        link_left = cell_left + cell_margin
-        link_right = cell_left + cell_size - cell_margin
-        link_top = cell_top + cell_margin
-        link_bottom = cell_top + cell_size - cell_margin
-        segment_height = (link_bottom - link_top) / len(cell.urls)
-        for index, url in enumerate(cell.urls):
-            segment_top = link_top + index * segment_height
-            segment_bottom = segment_top + segment_height
-            pdf.linkURL(
-                url,
-                (
-                    link_left,
-                    page_height - segment_bottom,
-                    link_right,
-                    page_height - segment_top,
-                ),
-                relative=0,
-            )
+        if cell.index in cell_image_link_rects:
+            # Precise per-word link overlays derived from the rendered image positions.
+            for url, x1, y1, x2, y2 in cell_image_link_rects[cell.index]:
+                pdf.linkURL(url, (x1, page_height - y2, x2, page_height - y1), relative=0)
+        elif cell.urls:
+            # Fallback: cover the entire cell (backward-compatible with metadata that
+            # lacks inline_links but still has URLs stored).
+            cell_left = grid_left + cell.col * cell_size
+            cell_top = grid_top + cell.row * cell_size
+            link_left = cell_left + cell_margin
+            link_right = cell_left + cell_size - cell_margin
+            link_top = cell_top + cell_margin
+            link_bottom = cell_top + cell_size - cell_margin
+            segment_height = (link_bottom - link_top) / len(cell.urls)
+            for index, url in enumerate(cell.urls):
+                segment_top = link_top + index * segment_height
+                segment_bottom = segment_top + segment_height
+                pdf.linkURL(
+                    url,
+                    (link_left, page_height - segment_bottom, link_right, page_height - segment_top),
+                    relative=0,
+                )
 
     pdf.showPage()
     pdf.save()
@@ -331,6 +461,7 @@ def write_metadata(username: str, cells: Iterable[PromptCell], metadata_path: Pa
                 "category": cell.category,
                 "text": cell.text,
                 "urls": list(cell.urls),
+                "inline_links": [{"text": lk.text, "url": lk.url} for lk in cell.inline_links],
             }
             for cell in cells
         ],
@@ -342,8 +473,16 @@ def read_metadata(metadata_path: Path) -> list[PromptCell]:
     payload = json.loads(metadata_path.read_text(encoding="utf-8"))
     cells = []
     for cell in payload["cells"]:
-        cell_with_urls = {**cell, "urls": tuple(cell.get("urls", ()))}
-        cells.append(PromptCell(**cell_with_urls))
+        inline_links = tuple(
+            InlineLink(text=lk["text"], url=lk["url"])
+            for lk in cell.get("inline_links", [])
+        )
+        cell_data = {
+            **cell,
+            "urls": tuple(cell.get("urls", ())),
+            "inline_links": inline_links,
+        }
+        cells.append(PromptCell(**cell_data))
     return cells
 
 
@@ -408,6 +547,7 @@ def update_existing(
             category=category,
             text=replacement.text,
             urls=replacement.urls,
+            inline_links=replacement.inline_links,
         )
 
     render_board(username, updated_cells, pdf_path)
