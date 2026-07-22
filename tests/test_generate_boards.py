@@ -47,7 +47,7 @@ class GenerateBoardsTests(unittest.TestCase):
     def test_update_existing_preserves_category_and_position(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
             boards_dir = Path(tmpdir)
-            png_path = boards_dir / "tester.png"
+            pdf_path = boards_dir / "tester.pdf"
             metadata_path = boards_dir / "tester.json"
             initial_cells = [
                 generate_boards.PromptCell(index=index, row=index // 5, col=index % 5, category="Easy", text=f"Easy {index}")
@@ -62,7 +62,7 @@ class GenerateBoardsTests(unittest.TestCase):
             )
             initial_cells[3] = generate_boards.PromptCell(index=3, row=0, col=3, category="Hard", text="Hard 1")
             generate_boards.write_metadata("tester", initial_cells, metadata_path)
-            png_path.write_bytes(b"placeholder")
+            pdf_path.write_bytes(b"placeholder")
 
             with patch.object(generate_boards, "BOARDS_DIR", boards_dir):
                 updated_path = generate_boards.update_existing(
@@ -74,11 +74,35 @@ class GenerateBoardsTests(unittest.TestCase):
 
             updated_cells = json.loads(metadata_path.read_text(encoding="utf-8"))["cells"]
             updated_cell = next(cell for cell in updated_cells if cell["index"] == 3)
-            self.assertEqual(updated_path, png_path)
+            self.assertEqual(updated_path, pdf_path)
             self.assertEqual(updated_cell["category"], "Hard")
             self.assertEqual(updated_cell["row"], 0)
             self.assertEqual(updated_cell["col"], 3)
             self.assertNotEqual(updated_cell["text"], "Hard 1")
+
+    def test_parse_prompts_extracts_markdown_links(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            prompts_file = Path(tmpdir) / "prompts.md"
+            prompts_file.write_text(
+                "\n".join(
+                    (
+                        "## Easy",
+                        "- Easy prompt",
+                        "## Easy license plate letter/number game, only one per card from this category",
+                        "- Plate prompt",
+                        "## Medium",
+                        "- Medium prompt with a [link](https://example.com/path)",
+                        "## Hard",
+                        "- Hard prompt",
+                    )
+                ),
+                encoding="utf-8",
+            )
+
+            prompts = generate_boards.parse_prompts(prompts_file)
+            medium_prompt = prompts["Medium"][0]
+            self.assertEqual(medium_prompt.text, "Medium prompt with a link")
+            self.assertEqual(medium_prompt.urls, ("https://example.com/path",))
 
 
 if __name__ == "__main__":

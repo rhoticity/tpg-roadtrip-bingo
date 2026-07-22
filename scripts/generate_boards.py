@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import io
 import json
 import random
 import re
@@ -11,6 +12,8 @@ from pathlib import Path
 from typing import Iterable
 
 from PIL import Image, ImageDraw, ImageFont
+from reportlab.lib.utils import ImageReader
+from reportlab.pdfgen import canvas
 
 FREE_SPACE_TEXT = "any photo of your choice"
 FREE_SPACE_CATEGORY = "Free"
@@ -35,6 +38,13 @@ class PromptCell:
     col: int
     category: str
     text: str
+    urls: tuple[str, ...] = ()
+
+
+@dataclass(frozen=True)
+class PromptOption:
+    text: str
+    urls: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -51,8 +61,8 @@ def load_font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
         return ImageFont.load_default()
 
 
-def parse_prompts(path: Path = PROMPTS_PATH) -> dict[str, list[str]]:
-    categories: dict[str, list[str]] = {}
+def parse_prompts(path: Path = PROMPTS_PATH) -> dict[str, list[PromptOption]]:
+    categories: dict[str, list[PromptOption]] = {}
     current_category: str | None = None
 
     for raw_line in path.read_text(encoding="utf-8").splitlines():
@@ -64,7 +74,10 @@ def parse_prompts(path: Path = PROMPTS_PATH) -> dict[str, list[str]]:
             categories.setdefault(current_category, [])
             continue
         if line.startswith("- ") and current_category:
-            categories[current_category].append(clean_prompt_text(line[2:].strip()))
+            prompt_text = line[2:].strip()
+            categories[current_category].append(
+                PromptOption(text=clean_prompt_text(prompt_text), urls=extract_prompt_links(prompt_text))
+            )
 
     missing = [category for category in CATEGORY_REQUIREMENTS if category not in categories]
     if missing:
@@ -89,6 +102,10 @@ def clean_prompt_text(prompt: str) -> str:
     return cleaned.strip()
 
 
+def extract_prompt_links(prompt: str) -> tuple[str, ...]:
+    return tuple(match.strip() for match in re.findall(r"\[[^\]]+\]\(([^)]+)\)", prompt))
+
+
 def sanitize_username(username: str) -> str:
     cleaned = username.strip()
     if not cleaned:
@@ -96,21 +113,29 @@ def sanitize_username(username: str) -> str:
     cleaned = cleaned.replace("/", "_").replace("\\", "_")
     if cleaned in {".", ".."}:
         raise ValueError("Username must not resolve to a filesystem path")
-    return cleaned.removesuffix(".png")
+    return cleaned.removesuffix(".png").removesuffix(".pdf")
 
 
 def board_paths(username: str) -> tuple[Path, Path]:
     safe_username = sanitize_username(username)
-    return BOARDS_DIR / f"{safe_username}.png", BOARDS_DIR / f"{safe_username}.json"
+    return BOARDS_DIR / f"{safe_username}.pdf", BOARDS_DIR / f"{safe_username}.json"
 
 
-def build_randomized_cells(prompts_by_category: dict[str, list[str]], rng: random.Random) -> list[PromptCell]:
-    chosen_entries: list[tuple[str, str]] = []
+def as_prompt_option(prompt: str | PromptOption) -> PromptOption:
+    if isinstance(prompt, PromptOption):
+        return prompt
+    return PromptOption(text=prompt)
+
+
+def build_randomized_cells(
+    prompts_by_category: dict[str, list[str | PromptOption]], rng: random.Random
+) -> list[PromptCell]:
+    chosen_entries: list[tuple[str, PromptOption]] = []
     for category, count in CATEGORY_REQUIREMENTS.items():
-        options = prompts_by_category[category]
+        options = [as_prompt_option(option) for option in prompts_by_category[category]]
         if len(options) < count:
             raise ValueError(f"Category '{category}' does not have enough prompts")
-        chosen_entries.extend((category, text) for text in rng.sample(options, count))
+        chosen_entries.extend((category, option) for option in rng.sample(options, count))
 
     rng.shuffle(chosen_entries)
     cells: list[PromptCell] = []
@@ -129,8 +154,8 @@ def build_randomized_cells(prompts_by_category: dict[str, list[str]], rng: rando
                 )
             )
             continue
-        category, text = next(entry_iter)
-        cells.append(PromptCell(index=index, row=row, col=col, category=category, text=text))
+        category, option = next(entry_iter)
+        cells.append(PromptCell(index=index, row=row, col=col, category=category, text=option.text, urls=option.urls))
 
     return cells
 
@@ -257,7 +282,39 @@ def render_board(username: str, cells: Iterable[PromptCell], output_path: Path) 
         draw.multiline_text((text_x, text_y), wrapped_text, fill="black", font=font, spacing=4, align="center")
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    image.save(output_path, format="PNG")
+    image_bytes = io.BytesIO()
+    image.save(image_bytes, format="PNG")
+    image_bytes.seek(0)
+
+    pdf = canvas.Canvas(str(output_path), pagesize=(image_width, image_height))
+    pdf.drawImage(ImageReader(image_bytes), 0, 0, width=image_width, height=image_height, preserveAspectRatio=True, mask="auto")
+
+    for cell in cell_list:
+        if not cell.urls:
+            continue
+        cell_left = grid_left + cell.col * cell_size
+        cell_top = grid_top + cell.row * cell_size
+        link_left = cell_left + cell_margin
+        link_right = cell_left + cell_size - cell_margin
+        link_top = cell_top + cell_margin
+        link_bottom = cell_top + cell_size - cell_margin
+        segment_height = (link_bottom - link_top) / len(cell.urls)
+        for index, url in enumerate(cell.urls):
+            segment_top = link_top + index * segment_height
+            segment_bottom = segment_top + segment_height
+            pdf.linkURL(
+                url,
+                (
+                    link_left,
+                    image_height - segment_bottom,
+                    link_right,
+                    image_height - segment_top,
+                ),
+                relative=0,
+            )
+
+    pdf.showPage()
+    pdf.save()
 
 
 def write_metadata(username: str, cells: Iterable[PromptCell], metadata_path: Path) -> None:
@@ -271,6 +328,7 @@ def write_metadata(username: str, cells: Iterable[PromptCell], metadata_path: Pa
                 "col": cell.col,
                 "category": cell.category,
                 "text": cell.text,
+                "urls": list(cell.urls),
             }
             for cell in cells
         ],
@@ -280,26 +338,41 @@ def write_metadata(username: str, cells: Iterable[PromptCell], metadata_path: Pa
 
 def read_metadata(metadata_path: Path) -> list[PromptCell]:
     payload = json.loads(metadata_path.read_text(encoding="utf-8"))
-    return [PromptCell(**cell) for cell in payload["cells"]]
+    return [
+        PromptCell(
+            index=cell["index"],
+            row=cell["row"],
+            col=cell["col"],
+            category=cell["category"],
+            text=cell["text"],
+            urls=tuple(cell.get("urls", ())),
+        )
+        for cell in payload["cells"]
+    ]
 
 
-def create_one(username: str, prompts_by_category: dict[str, list[str]], rng: random.Random) -> Path:
-    png_path, metadata_path = board_paths(username)
+def create_one(username: str, prompts_by_category: dict[str, list[str | PromptOption]], rng: random.Random) -> Path:
+    pdf_path, metadata_path = board_paths(username)
     cells = build_randomized_cells(prompts_by_category, rng)
-    render_board(username, cells, png_path)
+    render_board(username, cells, pdf_path)
     write_metadata(username, cells, metadata_path)
-    return png_path
+    return pdf_path
 
 
-def create_all(prompts_by_category: dict[str, list[str]], rng: random.Random) -> list[Path]:
+def create_all(prompts_by_category: dict[str, list[str | PromptOption]], rng: random.Random) -> list[Path]:
     users = parse_users()
     if not users:
         raise ValueError("users.md does not contain any usernames")
     return [create_one(username, prompts_by_category, rng) for username in users]
 
 
-def update_existing(username: str, prompts_to_replace: Iterable[str], prompts_by_category: dict[str, list[str]], rng: random.Random) -> Path:
-    png_path, metadata_path = board_paths(username)
+def update_existing(
+    username: str,
+    prompts_to_replace: Iterable[str],
+    prompts_by_category: dict[str, list[str | PromptOption]],
+    rng: random.Random,
+) -> Path:
+    pdf_path, metadata_path = board_paths(username)
     if not metadata_path.exists():
         raise FileNotFoundError(f"Board metadata not found for {sanitize_username(username)}")
 
@@ -323,26 +396,27 @@ def update_existing(username: str, prompts_to_replace: Iterable[str], prompts_by
 
         occupied_texts.remove(existing_cell.text)
         candidates = [
-            candidate
-            for candidate in prompts_by_category[category]
-            if candidate not in occupied_texts
+            option
+            for option in (as_prompt_option(candidate) for candidate in prompts_by_category[category])
+            if option.text not in occupied_texts
         ]
         if not candidates:
             raise ValueError(f"No remaining prompts available to replace '{prompt}' in category '{category}'")
 
         replacement = rng.choice(candidates)
-        occupied_texts.add(replacement)
+        occupied_texts.add(replacement.text)
         updated_cells[match_index] = PromptCell(
             index=existing_cell.index,
             row=existing_cell.row,
             col=existing_cell.col,
             category=category,
-            text=replacement,
+            text=replacement.text,
+            urls=replacement.urls,
         )
 
-    render_board(username, updated_cells, png_path)
+    render_board(username, updated_cells, pdf_path)
     write_metadata(username, updated_cells, metadata_path)
-    return png_path
+    return pdf_path
 
 
 def parse_issue_request(body: str) -> IssueRequest:
