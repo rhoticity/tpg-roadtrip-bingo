@@ -398,9 +398,13 @@ def main(argv: list[str] | None = None) -> int:
             if request.mode == "create-all":
                 created_paths = create_all(prompts_by_category, rng)
             elif request.mode == "create-one":
-                created_paths = [create_one(request.username or "", prompts_by_category, rng)]
+                if request.username is None:
+                    raise ValueError("Create-one mode requires a username")
+                created_paths = [create_one(request.username, prompts_by_category, rng)]
             else:
-                created_paths = [update_existing(request.username or "", request.prompts, prompts_by_category, rng)]
+                if request.username is None:
+                    raise ValueError("Update-existing mode requires a username")
+                created_paths = [update_existing(request.username, request.prompts, prompts_by_category, rng)]
     except (FileNotFoundError, ValueError) as exc:
         parser.exit(1, f"error: {exc}\n")
 
