@@ -103,7 +103,7 @@ def clean_prompt_text(prompt: str) -> str:
 
 
 def extract_prompt_links(prompt: str) -> tuple[str, ...]:
-    return tuple(match.strip() for match in re.findall(r"\[[^\]]+\]\(([^)]+)\)", prompt))
+    return tuple(re.findall(r"\[[^\]]+\]\(([^)]+)\)", prompt))
 
 
 def sanitize_username(username: str) -> str:
@@ -113,7 +113,7 @@ def sanitize_username(username: str) -> str:
     cleaned = cleaned.replace("/", "_").replace("\\", "_")
     if cleaned in {".", ".."}:
         raise ValueError("Username must not resolve to a filesystem path")
-    return cleaned.removesuffix(".png").removesuffix(".pdf")
+    return re.sub(r"\.(png|pdf)$", "", cleaned)
 
 
 def board_paths(username: str) -> tuple[Path, Path]:
@@ -286,8 +286,10 @@ def render_board(username: str, cells: Iterable[PromptCell], output_path: Path) 
     image.save(image_bytes, format="PNG")
     image_bytes.seek(0)
 
-    pdf = canvas.Canvas(str(output_path), pagesize=(image_width, image_height))
-    pdf.drawImage(ImageReader(image_bytes), 0, 0, width=image_width, height=image_height, preserveAspectRatio=True, mask="auto")
+    page_width = float(image_width)
+    page_height = float(image_height)
+    pdf = canvas.Canvas(str(output_path), pagesize=(page_width, page_height))
+    pdf.drawImage(ImageReader(image_bytes), 0, 0, width=page_width, height=page_height, mask="auto")
 
     for cell in cell_list:
         if not cell.urls:
@@ -306,9 +308,9 @@ def render_board(username: str, cells: Iterable[PromptCell], output_path: Path) 
                 url,
                 (
                     link_left,
-                    image_height - segment_bottom,
+                    page_height - segment_bottom,
                     link_right,
-                    image_height - segment_top,
+                    page_height - segment_top,
                 ),
                 relative=0,
             )
@@ -338,17 +340,11 @@ def write_metadata(username: str, cells: Iterable[PromptCell], metadata_path: Pa
 
 def read_metadata(metadata_path: Path) -> list[PromptCell]:
     payload = json.loads(metadata_path.read_text(encoding="utf-8"))
-    return [
-        PromptCell(
-            index=cell["index"],
-            row=cell["row"],
-            col=cell["col"],
-            category=cell["category"],
-            text=cell["text"],
-            urls=tuple(cell.get("urls", ())),
-        )
-        for cell in payload["cells"]
-    ]
+    cells = []
+    for cell in payload["cells"]:
+        cell_with_urls = {**cell, "urls": tuple(cell.get("urls", ()))}
+        cells.append(PromptCell(**cell_with_urls))
+    return cells
 
 
 def create_one(username: str, prompts_by_category: dict[str, list[str | PromptOption]], rng: random.Random) -> Path:
