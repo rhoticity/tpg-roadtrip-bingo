@@ -1,13 +1,13 @@
 {
   "username": "rhoticity",
-  "generated_at": "2026-07-22T05:54:14.633029+00:00",
+  "generated_at": "2026-07-22T06:13:14.830530+00:00",
   "cells": [
     {
       "index": 0,
       "row": 0,
       "col": 0,
       "category": "Medium",
-      "text": "Any county building",
+      "text": "A Bible verse reference or full text",
       "urls": [],
       "inline_links": []
     },
@@ -15,17 +15,24 @@
       "index": 1,
       "row": 0,
       "col": 1,
-      "category": "Easy",
-      "text": "A yellow automobile (taxis and school buses count)",
-      "urls": [],
-      "inline_links": []
+      "category": "Medium",
+      "text": "Any US or Canada license plate that is not a \"state standard\" design (for ease of identification, \"state standard\" defined as the designs that are on the front page here, even though there are others that are considered \"standard\")",
+      "urls": [
+        "https://licenseplates.cc/"
+      ],
+      "inline_links": [
+        {
+          "text": "here",
+          "url": "https://licenseplates.cc/"
+        }
+      ]
     },
     {
       "index": 2,
       "row": 0,
       "col": 2,
-      "category": "Medium",
-      "text": "Animal shelter",
+      "category": "Easy license plate letter/number game, only one per card from this category",
+      "text": "A license plate serial containing the letter H",
       "urls": [],
       "inline_links": []
     },
@@ -33,17 +40,24 @@
       "index": 3,
       "row": 0,
       "col": 3,
-      "category": "Medium",
-      "text": "A sign for an unincorporated place",
-      "urls": [],
-      "inline_links": []
+      "category": "Hard",
+      "text": "Any depiction of, or a live example of, a state flower in its state (e.g. California poppy in California; list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers"
+        }
+      ]
     },
     {
       "index": 4,
       "row": 0,
       "col": 4,
-      "category": "Easy",
-      "text": "A street sign indicating commemerative/honorary naming of that roadway",
+      "category": "Medium",
+      "text": "Any depiction of Abraham Lincoln",
       "urls": [],
       "inline_links": []
     },
@@ -52,7 +66,7 @@
       "row": 1,
       "col": 0,
       "category": "Easy",
-      "text": "A sign for any road named after any United States president",
+      "text": "A sign marking a municipality border",
       "urls": [],
       "inline_links": []
     },
@@ -60,17 +74,24 @@
       "index": 6,
       "row": 1,
       "col": 1,
-      "category": "Easy",
-      "text": "A roundabout/rotary",
-      "urls": [],
-      "inline_links": []
+      "category": "Medium",
+      "text": "Any regional restaurant (anything on this list )",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Category:Regional_restaurant_chains_in_the_United_States"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/Category:Regional_restaurant_chains_in_the_United_States"
+        }
+      ]
     },
     {
       "index": 7,
       "row": 1,
       "col": 2,
-      "category": "Hard",
-      "text": "Graffiti on a freight train car",
+      "category": "Easy",
+      "text": "Sporting event center for any professional or college sport/team",
       "urls": [],
       "inline_links": []
     },
@@ -78,8 +99,8 @@
       "index": 8,
       "row": 1,
       "col": 3,
-      "category": "Easy",
-      "text": "A sign with a mistake on it (e.g. missing letter, spelling/grammar, factual inaccuracy)",
+      "category": "Hard",
+      "text": "Sign indicating a distance more than 250 miles",
       "urls": [],
       "inline_links": []
     },
@@ -88,16 +109,23 @@
       "row": 1,
       "col": 4,
       "category": "Hard",
-      "text": "Military vehicle (in use or decommissioned)",
-      "urls": [],
-      "inline_links": []
+      "text": "Any depiction of, or a live example of, a state bird in its state (e.g. Northern cardinal in Illinois; list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_birds"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_U.S._state_birds"
+        }
+      ]
     },
     {
       "index": 10,
       "row": 2,
       "col": 0,
       "category": "Easy",
-      "text": "Any bus stop or bus station (signed school bus stops count)",
+      "text": "Advertisement for any beer",
       "urls": [],
       "inline_links": []
     },
@@ -105,8 +133,8 @@
       "index": 11,
       "row": 2,
       "col": 1,
-      "category": "Medium",
-      "text": "A building with an architectural dome/cupola",
+      "category": "Easy",
+      "text": "A sign with a mistake on it (e.g. missing letter, spelling/grammar, factual inaccuracy)",
       "urls": [],
       "inline_links": []
     },
@@ -123,8 +151,8 @@
       "index": 13,
       "row": 2,
       "col": 3,
-      "category": "Hard",
-      "text": "A decommissioned flying vehicle (airplane, helicopter, blimp, etc.)",
+      "category": "Easy",
+      "text": "A real rainbow or any depiction of a rainbow",
       "urls": [],
       "inline_links": []
     },
@@ -133,7 +161,7 @@
       "row": 2,
       "col": 4,
       "category": "Easy",
-      "text": "A real rainbow or any depiction of a rainbow",
+      "text": "A vehicle with three or more bumper stickers",
       "urls": [],
       "inline_links": []
     },
@@ -141,8 +169,8 @@
       "index": 15,
       "row": 3,
       "col": 0,
-      "category": "Medium",
-      "text": "Any depiction of George Washington",
+      "category": "Easy",
+      "text": "Any wild or domestic mammal except a cat or dog (in captivity accepted, live)",
       "urls": [],
       "inline_links": []
     },
@@ -150,17 +178,24 @@
       "index": 16,
       "row": 3,
       "col": 1,
-      "category": "Easy",
-      "text": "A water tower with writing/a logo on it",
-      "urls": [],
-      "inline_links": []
+      "category": "Hard",
+      "text": "A mansard-roof Pizza Hut building (can be still operating as a Pizza Hut, have another business in it, or vacant; representative examples)",
+      "urls": [
+        "https://usedtobeapizzahut.com/"
+      ],
+      "inline_links": [
+        {
+          "text": "representative examples",
+          "url": "https://usedtobeapizzahut.com/"
+        }
+      ]
     },
     {
       "index": 17,
       "row": 3,
       "col": 2,
-      "category": "Medium",
-      "text": "Any depiction of or a live goose",
+      "category": "Easy",
+      "text": "Any train station (metros/subways/light rail/etc. count)",
       "urls": [],
       "inline_links": []
     },
@@ -169,7 +204,7 @@
       "row": 3,
       "col": 3,
       "category": "Easy",
-      "text": "Any wild or domestic mammal except a cat or dog (in captivity accepted, live)",
+      "text": "A left hand exit",
       "urls": [],
       "inline_links": []
     },
@@ -177,8 +212,8 @@
       "index": 19,
       "row": 3,
       "col": 4,
-      "category": "Easy license plate letter/number game, only one per card from this category",
-      "text": "A license plate serial containing the numeral 1",
+      "category": "Medium",
+      "text": "Any depiction of or a live goose",
       "urls": [],
       "inline_links": []
     },
@@ -187,7 +222,7 @@
       "row": 4,
       "col": 0,
       "category": "Easy",
-      "text": "Advertisement for any beer",
+      "text": "A yellow automobile (taxis and school buses count)",
       "urls": [],
       "inline_links": []
     },
@@ -195,24 +230,17 @@
       "index": 21,
       "row": 4,
       "col": 1,
-      "category": "Hard",
-      "text": "Picture within or sign of US National Park (list)",
-      "urls": [
-        "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks"
-      ],
-      "inline_links": [
-        {
-          "text": "list",
-          "url": "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks"
-        }
-      ]
+      "category": "Easy",
+      "text": "A damaged sign",
+      "urls": [],
+      "inline_links": []
     },
     {
       "index": 22,
       "row": 4,
       "col": 2,
-      "category": "Hard",
-      "text": "A drawbridge/lift bridge",
+      "category": "Medium",
+      "text": "Any Canadian license plate",
       "urls": [],
       "inline_links": []
     },
@@ -220,8 +248,8 @@
       "index": 23,
       "row": 4,
       "col": 3,
-      "category": "Easy",
-      "text": "Political campaign sign",
+      "category": "Hard",
+      "text": "Any object or place claiming in visible signage or its Google Maps POI to be the World's Largest of whatever it is",
       "urls": [],
       "inline_links": []
     },
@@ -230,7 +258,7 @@
       "row": 4,
       "col": 4,
       "category": "Medium",
-      "text": "Any depiction of or a live bald eagle",
+      "text": "A windmill (decorative or functional)",
       "urls": [],
       "inline_links": []
     }
