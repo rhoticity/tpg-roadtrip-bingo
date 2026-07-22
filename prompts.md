@@ -111,6 +111,7 @@
 - Any wild or captive amphibian or reptile
 - A picture of the thing a street is named for, visible from or located on that street (e.g. a sunset taken from Sunset Boulevard; an oak tree on Oak Street)
 - Any Canadian license plate
+- Any building 100m+ in height (source of truth is [SkyscraperCenter](https://www.skyscrapercenter.com/explore-data))
 
 ## Hard
 - Picture within or sign of US National Park ([list](https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks))
