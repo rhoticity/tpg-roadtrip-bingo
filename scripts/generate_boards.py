@@ -239,6 +239,7 @@ def draw_text_with_inline_links(
     one entry per link occurrence found in the rendered text.
     """
     link_color = (17, 85, 204)  # blue, similar to a default browser link
+    underline_gap = 1  # pixels between the bottom of the glyph box and the underline
     ascent, _ = font.getmetrics()
     line_advance = ascent + spacing
 
@@ -308,7 +309,7 @@ def draw_text_with_inline_links(
             seg_width = draw.textlength(seg_text, font=font)
             if url:
                 draw.text((current_x, line_draw_y), seg_text, fill=link_color, font=font)
-                underline_y = int(visual_y2) + 1
+                underline_y = int(visual_y2) + underline_gap
                 draw.line(
                     [(int(current_x), underline_y), (int(current_x + seg_width), underline_y)],
                     fill=link_color,
