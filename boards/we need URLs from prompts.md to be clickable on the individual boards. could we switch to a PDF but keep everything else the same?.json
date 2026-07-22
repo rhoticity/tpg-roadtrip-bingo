@@ -1,0 +1,181 @@
+{
+  "username": "we need URLs from prompts.md to be clickable on the individual boards. could we switch to a PDF but keep everything else the same?",
+  "generated_at": "2026-07-22T04:57:26.457998+00:00",
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "category": "Easy",
+      "text": "Any train station (metros/subways/light rail/etc. count)"
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "category": "Easy",
+      "text": "Any wildlife/animal warning sign"
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "category": "Medium",
+      "text": "A non-US national flag"
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "category": "Hard",
+      "text": "A horse-drawn vehicle"
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "col": 4,
+      "category": "Medium",
+      "text": "Any regional restaurant (anything on this list )"
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 0,
+      "category": "Hard",
+      "text": "A drawbridge/lift bridge"
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 1,
+      "category": "Hard",
+      "text": "A decommissioned flying vehicle (airplane, helicopter, blimp, etc.)"
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 2,
+      "category": "Easy",
+      "text": "A sign marking a municipality border"
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "col": 3,
+      "category": "Medium",
+      "text": "Any depiction of or a live goose"
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "col": 4,
+      "category": "Medium",
+      "text": "A greenhouse (enclosure for growing plants)"
+    },
+    {
+      "index": 10,
+      "row": 2,
+      "col": 0,
+      "category": "Easy",
+      "text": "Dead End/No Outlet sign"
+    },
+    {
+      "index": 11,
+      "row": 2,
+      "col": 1,
+      "category": "Easy",
+      "text": "A yellow automobile (taxis and school buses count)"
+    },
+    {
+      "index": 12,
+      "row": 2,
+      "col": 2,
+      "category": "Free",
+      "text": "any photo of your choice"
+    },
+    {
+      "index": 13,
+      "row": 2,
+      "col": 3,
+      "category": "Medium",
+      "text": "Advertisement for, fairgrounds/sign for, or the actual event of a state or county fair"
+    },
+    {
+      "index": 14,
+      "row": 2,
+      "col": 4,
+      "category": "Medium",
+      "text": "Non-Christian religious building"
+    },
+    {
+      "index": 15,
+      "row": 3,
+      "col": 0,
+      "category": "Easy",
+      "text": "A sign displaying the local current temperature"
+    },
+    {
+      "index": 16,
+      "row": 3,
+      "col": 1,
+      "category": "Easy",
+      "text": "Any war or veterans' memorial"
+    },
+    {
+      "index": 17,
+      "row": 3,
+      "col": 2,
+      "category": "Hard",
+      "text": "Advertisement for a local radio station"
+    },
+    {
+      "index": 18,
+      "row": 3,
+      "col": 3,
+      "category": "Easy",
+      "text": "A sign for a road named after any kind of tree"
+    },
+    {
+      "index": 19,
+      "row": 3,
+      "col": 4,
+      "category": "Easy",
+      "text": "A sign for any road named after any United States president"
+    },
+    {
+      "index": 20,
+      "row": 4,
+      "col": 0,
+      "category": "Easy license plate letter/number game, only one per card from this category",
+      "text": "A license plate serial containing the letter S"
+    },
+    {
+      "index": 21,
+      "row": 4,
+      "col": 1,
+      "category": "Easy",
+      "text": "A sign advertising fireworks or fireworks store"
+    },
+    {
+      "index": 22,
+      "row": 4,
+      "col": 2,
+      "category": "Medium",
+      "text": "Any amusement park (water parks count)"
+    },
+    {
+      "index": 23,
+      "row": 4,
+      "col": 3,
+      "category": "Easy",
+      "text": "A sign with a population count on it"
+    },
+    {
+      "index": 24,
+      "row": 4,
+      "col": 4,
+      "category": "Hard",
+      "text": "Any international license plate (not US, Canada, Mexico - does not have to be current or attached to a vehicle)"
+    }
+  ]
+}
