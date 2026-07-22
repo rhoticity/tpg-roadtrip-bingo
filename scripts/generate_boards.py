@@ -325,7 +325,7 @@ def update_existing(username: str, prompts_to_replace: Iterable[str], prompts_by
         candidates = [
             candidate
             for candidate in prompts_by_category[category]
-            if candidate not in occupied_texts and candidate != existing_cell.text
+            if candidate not in occupied_texts
         ]
         if not candidates:
             raise ValueError(f"No remaining prompts available to replace '{prompt}' in category '{category}'")
