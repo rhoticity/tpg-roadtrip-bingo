@@ -9,6 +9,8 @@ from unittest.mock import patch
 
 from scripts import generate_boards
 
+PNG_MAGIC_BYTES = b"\x89PNG\r\n\x1a\n"
+
 
 class GenerateBoardsTests(unittest.TestCase):
     def setUp(self) -> None:
@@ -76,7 +78,7 @@ class GenerateBoardsTests(unittest.TestCase):
             updated_cells = json.loads(metadata_path.read_text(encoding="utf-8"))["cells"]
             updated_cell = next(cell for cell in updated_cells if cell["index"] == 3)
             self.assertEqual(updated_path, pdf_path)
-            self.assertTrue(png_path.exists())
+            self.assertEqual(png_path.read_bytes()[:8], PNG_MAGIC_BYTES)
             self.assertEqual(updated_cell["category"], "Hard")
             self.assertEqual(updated_cell["row"], 0)
             self.assertEqual(updated_cell["col"], 3)
@@ -94,7 +96,7 @@ class GenerateBoardsTests(unittest.TestCase):
             self.assertEqual(pdf_path, boards_dir / "tester.pdf")
             self.assertTrue(pdf_path.exists())
             self.assertTrue(metadata_path.exists())
-            self.assertEqual(png_path.read_bytes()[:8], b"\x89PNG\r\n\x1a\n")
+            self.assertEqual(png_path.read_bytes()[:8], PNG_MAGIC_BYTES)
 
     def test_parse_prompts_extracts_markdown_links(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
