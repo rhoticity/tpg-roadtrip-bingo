@@ -99,7 +99,6 @@ class GenerateBoardsTests(unittest.TestCase):
             metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
             self.assertEqual(metadata["username"], "tester")
             self.assertEqual(len(metadata["cells"]), 25)
-            self.assertTrue(png_path.exists())
             self.assertEqual(png_path.read_bytes()[:8], PNG_MAGIC_BYTES)
 
     def test_parse_prompts_extracts_markdown_links(self) -> None:
