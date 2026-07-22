@@ -415,9 +415,8 @@ def render_board(username: str, cells: Iterable[PromptCell], pdf_path: Path, png
     pdf_path.parent.mkdir(parents=True, exist_ok=True)
     image_bytes = io.BytesIO()
     image.save(image_bytes, format="PNG")
-    png_bytes = image_bytes.getvalue()
-    png_path.write_bytes(png_bytes)
-    image_bytes = io.BytesIO(png_bytes)
+    png_path.write_bytes(image_bytes.getbuffer())
+    image_bytes.seek(0)
 
     page_width = float(image_width)
     page_height = float(image_height)
