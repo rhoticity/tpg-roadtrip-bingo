@@ -1,0 +1,259 @@
+{
+  "username": "Loading",
+  "generated_at": "2026-07-22T20:54:37.557720+00:00",
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "category": "Easy",
+      "text": "A street sign indicating commemerative/honorary naming of that roadway",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "category": "Hard",
+      "text": "Picture within or sign of US National Park (list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "category": "Easy",
+      "text": "A roundabout/rotary",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "category": "Medium",
+      "text": "A bilingual sign (can have more than two languages)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "col": 4,
+      "category": "Easy",
+      "text": "A sign displaying the local current time",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 0,
+      "category": "Easy license plate letter/number game, only one per card from this category",
+      "text": "A license plate serial containing the numeral 4",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 1,
+      "category": "Hard",
+      "text": "Any object or place claiming in visible signage or its Google Maps POI to be the World's Largest of whatever it is",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 2,
+      "category": "Medium",
+      "text": "A picture of the thing a street is named for, visible from or located on that street (e.g. a sunset taken from Sunset Boulevard; an oak tree on Oak Street)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "col": 3,
+      "category": "Hard",
+      "text": "A mansard-roof Pizza Hut building (can be still operating as a Pizza Hut, have another business in it, or vacant; representative examples)",
+      "urls": [
+        "https://usedtobeapizzahut.com/"
+      ],
+      "inline_links": [
+        {
+          "text": "representative examples",
+          "url": "https://usedtobeapizzahut.com/"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "col": 4,
+      "category": "Hard",
+      "text": "An A-frame IHOP building (can be still operating as IHOP, have another business in it, or vacant; representative examples)",
+      "urls": [
+        "https://www.roadarch.com/eateries/ihop.html"
+      ],
+      "inline_links": [
+        {
+          "text": "representative examples",
+          "url": "https://www.roadarch.com/eateries/ihop.html"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "row": 2,
+      "col": 0,
+      "category": "Medium",
+      "text": "A building with an architectural dome/cupola",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 11,
+      "row": 2,
+      "col": 1,
+      "category": "Easy",
+      "text": "Any war or veterans' memorial",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 12,
+      "row": 2,
+      "col": 2,
+      "category": "Free",
+      "text": "any photo of your choice",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 13,
+      "row": 2,
+      "col": 3,
+      "category": "Easy",
+      "text": "A real rainbow or any depiction of a rainbow",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 14,
+      "row": 2,
+      "col": 4,
+      "category": "Easy",
+      "text": "Political campaign sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 15,
+      "row": 3,
+      "col": 0,
+      "category": "Medium",
+      "text": "Any depiction of or a live goose",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 16,
+      "row": 3,
+      "col": 1,
+      "category": "Easy",
+      "text": "A sign with a date on it",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 17,
+      "row": 3,
+      "col": 2,
+      "category": "Easy",
+      "text": "A sign displaying the local current temperature",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 18,
+      "row": 3,
+      "col": 3,
+      "category": "Easy",
+      "text": "A yellow automobile (taxis and school buses count)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 19,
+      "row": 3,
+      "col": 4,
+      "category": "Easy",
+      "text": "A neon sign (anything clearly in the neon style counts even if it's not true neon)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 20,
+      "row": 4,
+      "col": 0,
+      "category": "Easy",
+      "text": "Any wildlife/animal warning sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 21,
+      "row": 4,
+      "col": 1,
+      "category": "Hard",
+      "text": "Any depiction of, or a live example of, a state tree in its state (e.g. Sabal palmetto in South Carolina; list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_trees"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_trees"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "row": 4,
+      "col": 2,
+      "category": "Medium",
+      "text": "A non-US national flag",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 23,
+      "row": 4,
+      "col": 3,
+      "category": "Medium",
+      "text": "Adopt-a-Highway sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 24,
+      "row": 4,
+      "col": 4,
+      "category": "Medium",
+      "text": "Sign or building for any fraternal organization (Elks, Masons, Odd Fellows, etc.)",
+      "urls": [],
+      "inline_links": []
+    }
+  ]
+}
