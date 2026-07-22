@@ -1,0 +1,181 @@
+{
+  "username": "rhoticity",
+  "generated_at": "2026-07-22T04:31:32.184614+00:00",
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "category": "Medium",
+      "text": "Advertisement for a personal injury lawyer/firm"
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "category": "Easy",
+      "text": "Any war or veterans' memorial"
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "category": "Hard",
+      "text": "A mansard-roof Pizza Hut building (can be still operating as a Pizza Hut, have another business in it, or vacant; representative examples)"
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "category": "Easy license plate letter/number game, only one per card from this category",
+      "text": "A license plate serial containing the letter A"
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "col": 4,
+      "category": "Medium",
+      "text": "A windmill (decorative or functional)"
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 0,
+      "category": "Easy",
+      "text": "Any wild or domestic bird (in captivity accepted, live)"
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 1,
+      "category": "Medium",
+      "text": "Any depiction of George Washington"
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 2,
+      "category": "Medium",
+      "text": "Advertisement for a musical event/concert"
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "col": 3,
+      "category": "Hard",
+      "text": "Sign indicating a distance more than 250 miles"
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "col": 4,
+      "category": "Easy",
+      "text": "A sign marking a municipality border"
+    },
+    {
+      "index": 10,
+      "row": 2,
+      "col": 0,
+      "category": "Easy",
+      "text": "A sign displaying the local current time"
+    },
+    {
+      "index": 11,
+      "row": 2,
+      "col": 1,
+      "category": "Easy",
+      "text": "A yellow automobile (taxis and school buses count)"
+    },
+    {
+      "index": 12,
+      "row": 2,
+      "col": 2,
+      "category": "Free",
+      "text": "any photo of your choice"
+    },
+    {
+      "index": 13,
+      "row": 2,
+      "col": 3,
+      "category": "Easy",
+      "text": "Any wildlife/animal warning sign"
+    },
+    {
+      "index": 14,
+      "row": 2,
+      "col": 4,
+      "category": "Easy",
+      "text": "A vehicle with three or more bumper stickers"
+    },
+    {
+      "index": 15,
+      "row": 3,
+      "col": 0,
+      "category": "Easy",
+      "text": "A damaged sign"
+    },
+    {
+      "index": 16,
+      "row": 3,
+      "col": 1,
+      "category": "Hard",
+      "text": "Any object or place claiming in visible signage or its Google Maps POI to be the World's Largest of whatever it is"
+    },
+    {
+      "index": 17,
+      "row": 3,
+      "col": 2,
+      "category": "Easy",
+      "text": "A sign advertising fireworks or fireworks store"
+    },
+    {
+      "index": 18,
+      "row": 3,
+      "col": 3,
+      "category": "Medium",
+      "text": "A sign for an unincorporated place"
+    },
+    {
+      "index": 19,
+      "row": 3,
+      "col": 4,
+      "category": "Medium",
+      "text": "A picture of the thing a street is named for, visible from or located on that street (e.g. a sunset taken from Sunset Boulevard; an oak tree on Oak Street)"
+    },
+    {
+      "index": 20,
+      "row": 4,
+      "col": 0,
+      "category": "Easy",
+      "text": "Advertisement for any beer"
+    },
+    {
+      "index": 21,
+      "row": 4,
+      "col": 1,
+      "category": "Hard",
+      "text": "A civil defense/weather siren"
+    },
+    {
+      "index": 22,
+      "row": 4,
+      "col": 2,
+      "category": "Medium",
+      "text": "Any US state flag"
+    },
+    {
+      "index": 23,
+      "row": 4,
+      "col": 3,
+      "category": "Easy",
+      "text": "Any wild or domestic mammal except a cat or dog (in captivity accepted, live)"
+    },
+    {
+      "index": 24,
+      "row": 4,
+      "col": 4,
+      "category": "Hard",
+      "text": "Picture within or sign of US National Park (list)"
+    }
+  ]
+}
