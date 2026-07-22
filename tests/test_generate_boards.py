@@ -85,7 +85,7 @@ class GenerateBoardsTests(unittest.TestCase):
             self.assertEqual(updated_cell["col"], 3)
             self.assertNotEqual(updated_cell["text"], "Hard 1")
 
-    def test_create_one_generates_all_output_formats(self) -> None:
+    def test_create_one_generates_png_pdf_and_json(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
             boards_dir = Path(tmpdir)
 
