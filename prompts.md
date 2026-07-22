@@ -78,7 +78,7 @@
 - A bilingual sign (can have more than two languages)
 - Animal shelter
 - Mini-golf (putt-putt) course
-- National Register of Historic Places plaque/place (list: https://www.nps.gov/subjects/nationalregister/database-research.htm)
+- National Register of Historic Places plaque/place ([list](https://www.nps.gov/subjects/nationalregister/database-research.htm))
 - A non-US national flag
 - Advertisement for, fairgrounds/sign for, or the actual event of a state or county fair
 - A Bible verse reference or full text
@@ -111,24 +111,23 @@
 - Any wild or captive amphibian or reptile
 - A picture of the thing a street is named for, visible from or located on that street (e.g. a sunset taken from Sunset Boulevard; an oak tree on Oak Street)
 - Any Canadian license plate
-- A civil defense/weather siren
 
 ## Hard
-- Picture within or sign of US National Park (https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks)
-- Picture within or sign of US National Monument (https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments)
-- A mansard-roof Pizza Hut building (can be still operating as a Pizza Hut, have another business in it, or vacant; representative examples at https://usedtobeapizzahut.com/)
-- An A-frame IHOP building (can be still operating as IHOP, have another business in it, or vacant; representative examples at https://www.roadarch.com/eateries/ihop.html)
-- Any depiction of, or a live example of, a state bird in its state (e.g. Northern cardinal in Illinois) - https://en.wikipedia.org/wiki/List_of_U.S._state_birds
-- Any depiction of, or a live example of, a state flower in its state (e.g. California poppy in California) - https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers
-- Any depiction of, or a live example of, a state tree in its state (e.g. Sabal palmetto in South Carolina) - https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_trees
-- Any city/municipal or county flag - https://simple.wikipedia.org/wiki/Flags_of_cities_of_the_United_States ; https://commons.wikimedia.org/wiki/Flags_of_counties_and_municipalities_in_the_United_States
+- Picture within or sign of US National Park ([list](https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks))
+- Picture within or sign of US National Monument ([list](https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments))
+- A mansard-roof Pizza Hut building (can be still operating as a Pizza Hut, have another business in it, or vacant; [representative examples](https://usedtobeapizzahut.com/))
+- An A-frame IHOP building (can be still operating as IHOP, have another business in it, or vacant; [representative examples](https://www.roadarch.com/eateries/ihop.html))
+- Any depiction of, or a live example of, a state bird in its state (e.g. Northern cardinal in Illinois; [list](https://en.wikipedia.org/wiki/List_of_U.S._state_birds))
+- Any depiction of, or a live example of, a state flower in its state (e.g. California poppy in California; [list](https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers))
+- Any depiction of, or a live example of, a state tree in its state (e.g. Sabal palmetto in South Carolina; [list](https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_trees))
+- Any city/municipal or county flag - [list](https://simple.wikipedia.org/wiki/Flags_of_cities_of_the_United_States) ; [list](https://commons.wikimedia.org/wiki/Flags_of_counties_and_municipalities_in_the_United_States)
 - Sign indicating a distance more than 250 miles
 - Advertisement for a local radio station
 - Graffiti on a freight train car
 - A dirty vehicle where someone has drawn/written in its dirt
 - Military vehicle (in use or decommissioned)
 - Any object or place claiming in visible signage or its Google Maps POI to be the World's Largest of whatever it is
-- A drive-in restaurant or movie theatre that calls itself a drive-in on its signage
+- A drive-in restaurant or movie theater that calls itself a drive-in on its signage/Google Maps POI
 - A drawbridge/lift bridge
 - A train that's no longer on train tracks
 - A decommissioned flying vehicle (airplane, helicopter, blimp, etc.)
@@ -136,3 +135,5 @@
 - A horse-drawn vehicle
 - Any Mexican license plate
 - Any international license plate (not US, Canada, Mexico - does not have to be current or attached to a vehicle)
+- A civil defense/weather siren
+
