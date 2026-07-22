@@ -413,10 +413,11 @@ def render_board(username: str, cells: Iterable[PromptCell], pdf_path: Path, png
             draw.multiline_text((text_x, text_y), wrapped_text, fill="black", font=font, spacing=4, align="center")
 
     pdf_path.parent.mkdir(parents=True, exist_ok=True)
-    image.save(png_path, format="PNG")
     image_bytes = io.BytesIO()
     image.save(image_bytes, format="PNG")
-    image_bytes.seek(0)
+    png_bytes = image_bytes.getvalue()
+    png_path.write_bytes(png_bytes)
+    image_bytes = io.BytesIO(png_bytes)
 
     page_width = float(image_width)
     page_height = float(image_height)
