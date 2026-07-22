@@ -1,21 +1,21 @@
 {
   "username": "rhoticity",
-  "generated_at": "2026-07-22T05:08:59.565036+00:00",
+  "generated_at": "2026-07-22T05:20:48.685683+00:00",
   "cells": [
     {
       "index": 0,
       "row": 0,
       "col": 0,
-      "category": "Easy",
-      "text": "A damaged sign",
+      "category": "Hard",
+      "text": "Graffiti on a freight train car",
       "urls": []
     },
     {
       "index": 1,
       "row": 0,
       "col": 1,
-      "category": "Easy",
-      "text": "A sign marking a municipality border",
+      "category": "Hard",
+      "text": "Military vehicle (in use or decommissioned)",
       "urls": []
     },
     {
@@ -23,15 +23,15 @@
       "row": 0,
       "col": 2,
       "category": "Easy",
-      "text": "A yellow automobile (taxis and school buses count)",
+      "text": "A neon sign (anything clearly in the neon style counts even if it's not true neon)",
       "urls": []
     },
     {
       "index": 3,
       "row": 0,
       "col": 3,
-      "category": "Hard",
-      "text": "A train that's no longer on train tracks",
+      "category": "Easy",
+      "text": "Sporting event center for any professional or college sport/team",
       "urls": []
     },
     {
@@ -39,23 +39,23 @@
       "row": 0,
       "col": 4,
       "category": "Medium",
-      "text": "Any depiction of or a live bald eagle",
+      "text": "Any US state flag",
       "urls": []
     },
     {
       "index": 5,
       "row": 1,
       "col": 0,
-      "category": "Medium",
-      "text": "Any US state flag",
+      "category": "Easy",
+      "text": "A sign with a date on it",
       "urls": []
     },
     {
       "index": 6,
       "row": 1,
       "col": 1,
-      "category": "Hard",
-      "text": "Any object or place claiming in visible signage or its Google Maps POI to be the World's Largest of whatever it is",
+      "category": "Medium",
+      "text": "A sign indicating something was established on a date in or before 1950 (the thing doesn't have to still be extant or functional)",
       "urls": []
     },
     {
@@ -63,15 +63,15 @@
       "row": 1,
       "col": 2,
       "category": "Easy license plate letter/number game, only one per card from this category",
-      "text": "A license plate serial containing the letter T",
+      "text": "A license plate serial containing the numeral 1",
       "urls": []
     },
     {
       "index": 8,
       "row": 1,
       "col": 3,
-      "category": "Medium",
-      "text": "Any depiction of George Washington",
+      "category": "Easy",
+      "text": "A damaged sign",
       "urls": []
     },
     {
@@ -86,8 +86,8 @@
       "index": 10,
       "row": 2,
       "col": 0,
-      "category": "Easy",
-      "text": "A sign for a road named after any kind of tree",
+      "category": "Medium",
+      "text": "Any depiction of or a live bald eagle",
       "urls": []
     },
     {
@@ -95,7 +95,7 @@
       "row": 2,
       "col": 1,
       "category": "Easy",
-      "text": "A sign for any road named Main",
+      "text": "Any wildlife/animal warning sign",
       "urls": []
     },
     {
@@ -110,24 +110,26 @@
       "index": 13,
       "row": 2,
       "col": 3,
-      "category": "Hard",
-      "text": "A drive-in restaurant or movie theater that calls itself a drive-in on its signage/Google Maps POI",
+      "category": "Medium",
+      "text": "A picture taken while clearly riding public transit of any kind (train/metro/subway/light rail, bus, etc.)",
       "urls": []
     },
     {
       "index": 14,
       "row": 2,
       "col": 4,
-      "category": "Easy",
-      "text": "Advertisement for any beer",
-      "urls": []
+      "category": "Hard",
+      "text": "Any depiction of, or a live example of, a state bird in its state (e.g. Northern cardinal in Illinois; list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_birds"
+      ]
     },
     {
       "index": 15,
       "row": 3,
       "col": 0,
-      "category": "Hard",
-      "text": "Advertisement for a local radio station",
+      "category": "Easy",
+      "text": "Private property/no trespassing sign",
       "urls": []
     },
     {
@@ -135,23 +137,23 @@
       "row": 3,
       "col": 1,
       "category": "Easy",
-      "text": "A sign for any highway concurrency (interstate/US highway/state highway/county road sharing the same roadway)",
+      "text": "A sign with a population count on it",
       "urls": []
     },
     {
       "index": 17,
       "row": 3,
       "col": 2,
-      "category": "Easy",
-      "text": "Private property/no trespassing sign",
+      "category": "Hard",
+      "text": "A dirty vehicle where someone has drawn/written in its dirt",
       "urls": []
     },
     {
       "index": 18,
       "row": 3,
       "col": 3,
-      "category": "Medium",
-      "text": "A windmill (decorative or functional)",
+      "category": "Hard",
+      "text": "Advertisement for a local radio station",
       "urls": []
     },
     {
@@ -159,42 +161,41 @@
       "row": 3,
       "col": 4,
       "category": "Easy",
-      "text": "Advertisement for Coca-Cola",
+      "text": "A vehicle with three or more bumper stickers",
       "urls": []
     },
     {
       "index": 20,
       "row": 4,
       "col": 0,
-      "category": "Hard",
-      "text": "Any city/municipal or county flag - list ; list",
-      "urls": [
-        "https://simple.wikipedia.org/wiki/Flags_of_cities_of_the_United_States",
-        "https://commons.wikimedia.org/wiki/Flags_of_counties_and_municipalities_in_the_United_States"
-      ]
+      "category": "Easy",
+      "text": "A sign marking a municipality border",
+      "urls": []
     },
     {
       "index": 21,
       "row": 4,
       "col": 1,
-      "category": "Easy",
-      "text": "A sign for any road named after any United States president",
-      "urls": []
+      "category": "Medium",
+      "text": "Any US or Canada license plate that is not a \"state standard\" design (for ease of identification, \"state standard\" defined as the designs that are on the front page here, even though there are others that are considered \"standard\")",
+      "urls": [
+        "https://licenseplates.cc/"
+      ]
     },
     {
       "index": 22,
       "row": 4,
       "col": 2,
       "category": "Medium",
-      "text": "Produce stand (farmers' markets count)",
+      "text": "A motel with exterior room entrances",
       "urls": []
     },
     {
       "index": 23,
       "row": 4,
       "col": 3,
-      "category": "Medium",
-      "text": "A well (decorative or functional)",
+      "category": "Easy",
+      "text": "A roundabout/rotary",
       "urls": []
     },
     {
@@ -202,7 +203,7 @@
       "row": 4,
       "col": 4,
       "category": "Medium",
-      "text": "A greenhouse (enclosure for growing plants)",
+      "text": "Any county building",
       "urls": []
     }
   ]
