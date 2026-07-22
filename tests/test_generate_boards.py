@@ -48,6 +48,7 @@ class GenerateBoardsTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmpdir:
             boards_dir = Path(tmpdir)
             pdf_path = boards_dir / "tester.pdf"
+            png_path = boards_dir / "tester.png"
             metadata_path = boards_dir / "tester.json"
             initial_cells = [
                 generate_boards.PromptCell(index=index, row=index // 5, col=index % 5, category="Easy", text=f"Easy {index}")
@@ -75,10 +76,25 @@ class GenerateBoardsTests(unittest.TestCase):
             updated_cells = json.loads(metadata_path.read_text(encoding="utf-8"))["cells"]
             updated_cell = next(cell for cell in updated_cells if cell["index"] == 3)
             self.assertEqual(updated_path, pdf_path)
+            self.assertTrue(png_path.exists())
             self.assertEqual(updated_cell["category"], "Hard")
             self.assertEqual(updated_cell["row"], 0)
             self.assertEqual(updated_cell["col"], 3)
             self.assertNotEqual(updated_cell["text"], "Hard 1")
+
+    def test_create_one_writes_png_alongside_pdf_and_metadata(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            boards_dir = Path(tmpdir)
+
+            with patch.object(generate_boards, "BOARDS_DIR", boards_dir):
+                pdf_path = generate_boards.create_one("tester", self.prompts, random.Random(1))
+
+            png_path = boards_dir / "tester.png"
+            metadata_path = boards_dir / "tester.json"
+            self.assertEqual(pdf_path, boards_dir / "tester.pdf")
+            self.assertTrue(pdf_path.exists())
+            self.assertTrue(metadata_path.exists())
+            self.assertEqual(png_path.read_bytes()[:8], b"\x89PNG\r\n\x1a\n")
 
     def test_parse_prompts_extracts_markdown_links(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:

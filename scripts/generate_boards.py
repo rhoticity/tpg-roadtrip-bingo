@@ -135,9 +135,10 @@ def sanitize_username(username: str) -> str:
     return re.sub(r"\.(png|pdf)$", "", cleaned)
 
 
-def board_paths(username: str) -> tuple[Path, Path]:
+def board_paths(username: str) -> tuple[Path, Path, Path]:
     safe_username = sanitize_username(username)
-    return BOARDS_DIR / f"{safe_username}.pdf", BOARDS_DIR / f"{safe_username}.json"
+    board_path = BOARDS_DIR / safe_username
+    return board_path.with_suffix(".pdf"), board_path.with_suffix(".png"), board_path.with_suffix(".json")
 
 
 def as_prompt_option(prompt: str | PromptOption) -> PromptOption:
@@ -323,7 +324,7 @@ def draw_text_with_inline_links(
     return image_link_rects
 
 
-def render_board(username: str, cells: Iterable[PromptCell], output_path: Path) -> None:
+def render_board(username: str, cells: Iterable[PromptCell], pdf_path: Path, png_path: Path) -> None:
     outer_margin = 36
     row_label_width = 72
     username_height = 52
@@ -411,14 +412,15 @@ def render_board(username: str, cells: Iterable[PromptCell], output_path: Path) 
         else:
             draw.multiline_text((text_x, text_y), wrapped_text, fill="black", font=font, spacing=4, align="center")
 
-    output_path.parent.mkdir(parents=True, exist_ok=True)
+    pdf_path.parent.mkdir(parents=True, exist_ok=True)
+    image.save(png_path, format="PNG")
     image_bytes = io.BytesIO()
     image.save(image_bytes, format="PNG")
     image_bytes.seek(0)
 
     page_width = float(image_width)
     page_height = float(image_height)
-    pdf = canvas.Canvas(str(output_path), pagesize=(page_width, page_height))
+    pdf = canvas.Canvas(str(pdf_path), pagesize=(page_width, page_height))
     pdf.drawImage(ImageReader(image_bytes), 0, 0, width=page_width, height=page_height, mask="auto")
 
     for cell in cell_list:
@@ -487,9 +489,9 @@ def read_metadata(metadata_path: Path) -> list[PromptCell]:
 
 
 def create_one(username: str, prompts_by_category: dict[str, list[str | PromptOption]], rng: random.Random) -> Path:
-    pdf_path, metadata_path = board_paths(username)
+    pdf_path, png_path, metadata_path = board_paths(username)
     cells = build_randomized_cells(prompts_by_category, rng)
-    render_board(username, cells, pdf_path)
+    render_board(username, cells, pdf_path, png_path)
     write_metadata(username, cells, metadata_path)
     return pdf_path
 
@@ -507,7 +509,7 @@ def update_existing(
     prompts_by_category: dict[str, list[str | PromptOption]],
     rng: random.Random,
 ) -> Path:
-    pdf_path, metadata_path = board_paths(username)
+    pdf_path, png_path, metadata_path = board_paths(username)
     if not metadata_path.exists():
         raise FileNotFoundError(f"Board metadata not found for {sanitize_username(username)}")
 
@@ -550,7 +552,7 @@ def update_existing(
             inline_links=replacement.inline_links,
         )
 
-    render_board(username, updated_cells, pdf_path)
+    render_board(username, updated_cells, pdf_path, png_path)
     write_metadata(username, updated_cells, metadata_path)
     return pdf_path
 

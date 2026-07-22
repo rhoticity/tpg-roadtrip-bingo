@@ -2,7 +2,7 @@
 
 ## Bingo board generator
 
-The repository includes a Python-based bingo board generator that reads prompts from `prompts.md`, writes PDF boards to `boards/`, and stores matching JSON metadata beside each board so existing boards can be rerolled in place.
+The repository includes a Python-based bingo board generator that reads prompts from `prompts.md`, writes PDF and PNG boards to `boards/`, and stores matching JSON metadata beside each board so existing boards can be rerolled in place.
 
 ### Local usage
 
