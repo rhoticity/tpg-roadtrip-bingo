@@ -1,0 +1,252 @@
+{
+  "username": "Jaspinko",
+  "generated_at": "2026-07-22T22:35:02.893269+00:00",
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "category": "Easy",
+      "text": "A left hand exit",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "category": "Medium",
+      "text": "Advertisement for a personal injury lawyer/firm",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "category": "Medium",
+      "text": "Any US or Canada license plate that is not a \"state standard\" design (for ease of identification, \"state standard\" defined as the designs that are on the front page here, even though there are others that are considered \"standard\")",
+      "urls": [
+        "https://licenseplates.cc/"
+      ],
+      "inline_links": [
+        {
+          "text": "here",
+          "url": "https://licenseplates.cc/"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "category": "Easy",
+      "text": "A sign for a road named for a place other than the one it is in (e.g. Milwaukee Avenue in Chicago)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "col": 4,
+      "category": "Easy",
+      "text": "Political campaign sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 0,
+      "category": "Easy",
+      "text": "A yellow automobile (taxis and school buses count)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 1,
+      "category": "Easy",
+      "text": "Dead End/No Outlet sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 2,
+      "category": "Hard",
+      "text": "An A-frame IHOP building (can be still operating as IHOP, have another business in it, or vacant; representative examples)",
+      "urls": [
+        "https://www.roadarch.com/eateries/ihop.html"
+      ],
+      "inline_links": [
+        {
+          "text": "representative examples",
+          "url": "https://www.roadarch.com/eateries/ihop.html"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "col": 3,
+      "category": "Medium",
+      "text": "Sign or building for any fraternal organization (Elks, Masons, Odd Fellows, etc.)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "col": 4,
+      "category": "Easy",
+      "text": "Private property/no trespassing sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 10,
+      "row": 2,
+      "col": 0,
+      "category": "Easy",
+      "text": "Advertisement for Coca-Cola",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 11,
+      "row": 2,
+      "col": 1,
+      "category": "Easy license plate letter/number game, only one per card from this category",
+      "text": "A license plate serial containing the letter A",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 12,
+      "row": 2,
+      "col": 2,
+      "category": "Free",
+      "text": "any photo of your choice",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 13,
+      "row": 2,
+      "col": 3,
+      "category": "Hard",
+      "text": "A train that's no longer on train tracks",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 14,
+      "row": 2,
+      "col": 4,
+      "category": "Hard",
+      "text": "Picture within or sign of US National Park (list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "row": 3,
+      "col": 0,
+      "category": "Medium",
+      "text": "Non-Christian religious building",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 16,
+      "row": 3,
+      "col": 1,
+      "category": "Easy",
+      "text": "A vehicle with three or more bumper stickers",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 17,
+      "row": 3,
+      "col": 2,
+      "category": "Hard",
+      "text": "Any international license plate (not US, Canada, Mexico - does not have to be current or attached to a vehicle)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 18,
+      "row": 3,
+      "col": 3,
+      "category": "Medium",
+      "text": "Any depiction of or a live bald eagle",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 19,
+      "row": 3,
+      "col": 4,
+      "category": "Hard",
+      "text": "Any Mexican license plate",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 20,
+      "row": 4,
+      "col": 0,
+      "category": "Easy",
+      "text": "A sign marking a county OR state border",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 21,
+      "row": 4,
+      "col": 1,
+      "category": "Medium",
+      "text": "Any county building",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 22,
+      "row": 4,
+      "col": 2,
+      "category": "Easy",
+      "text": "Any war or veterans' memorial",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 23,
+      "row": 4,
+      "col": 3,
+      "category": "Medium",
+      "text": "Any depiction of George Washington",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 24,
+      "row": 4,
+      "col": 4,
+      "category": "Easy",
+      "text": "A street sign indicating commemerative/honorary naming of that roadway",
+      "urls": [],
+      "inline_links": []
+    }
+  ]
+}
