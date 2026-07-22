@@ -531,7 +531,6 @@ def update_existing(
         if category == FREE_SPACE_CATEGORY:
             raise ValueError("The free space cannot be rerolled")
 
-        occupied_texts.remove(existing_cell.text)
         candidates = [
             option
             for option in (as_prompt_option(candidate) for candidate in prompts_by_category[category])
@@ -541,6 +540,7 @@ def update_existing(
             raise ValueError(f"No remaining prompts available to replace '{prompt}' in category '{category}'")
 
         replacement = rng.choice(candidates)
+        occupied_texts.remove(existing_cell.text)
         occupied_texts.add(replacement.text)
         updated_cells[match_index] = PromptCell(
             index=existing_cell.index,
