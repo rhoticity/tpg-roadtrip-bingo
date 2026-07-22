@@ -116,6 +116,7 @@
 - Picture within or sign of US National Park ([list](https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks))
 - Picture within or sign of US National Monument ([list](https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments))
 - A mansard-roof Pizza Hut building (can be still operating as a Pizza Hut, have another business in it, or vacant; [representative examples](https://usedtobeapizzahut.com/))
+- A mission style Taco Bell building (can be still operating as a Taco Bell, have another business in it, or vacant; [representative examples](https://www.roadarch.com/eateries/tbell.html))
 - An A-frame IHOP building (can be still operating as IHOP, have another business in it, or vacant; [representative examples](https://www.roadarch.com/eateries/ihop.html))
 - Any depiction of, or a live example of, a state bird in its state (e.g. Northern cardinal in Illinois; [list](https://en.wikipedia.org/wiki/List_of_U.S._state_birds))
 - Any depiction of, or a live example of, a state flower in its state (e.g. California poppy in California; [list](https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers))
