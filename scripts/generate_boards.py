@@ -135,7 +135,12 @@ def build_randomized_cells(prompts_by_category: dict[str, list[str]], rng: rando
     return cells
 
 
-def wrap_text(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.ImageFont, max_width: int) -> list[str]:
+def wrap_text(
+    draw: ImageDraw.ImageDraw,
+    text: str,
+    font: ImageFont.FreeTypeFont | ImageFont.ImageFont,
+    max_width: int,
+) -> list[str]:
     words = text.split()
     if not words:
         return [""]
@@ -153,7 +158,13 @@ def wrap_text(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.ImageFont, m
     return lines
 
 
-def fit_text(draw: ImageDraw.ImageDraw, text: str, max_width: int, max_height: int, starting_size: int) -> tuple[ImageFont.ImageFont, list[str]]:
+def fit_text(
+    draw: ImageDraw.ImageDraw,
+    text: str,
+    max_width: int,
+    max_height: int,
+    starting_size: int,
+) -> tuple[ImageFont.FreeTypeFont | ImageFont.ImageFont, list[str]]:
     for size in range(starting_size, 11, -1):
         font = load_font(size)
         lines = wrap_text(draw, text, font, max_width)
