@@ -1,6 +1,6 @@
 {
   "username": "JayVerti",
-  "generated_at": "2026-07-22T21:15:22.818599+00:00",
+  "generated_at": "2026-07-22T21:50:22.742818+00:00",
   "cells": [
     {
       "index": 0,
@@ -138,16 +138,9 @@
       "row": 2,
       "col": 3,
       "category": "Hard",
-      "text": "A mission style Taco Bell building (can be still operating as a Taco Bell, have another business in it, or vacant; representative examples)",
-      "urls": [
-        "https://www.roadarch.com/eateries/tbell.html"
-      ],
-      "inline_links": [
-        {
-          "text": "representative examples",
-          "url": "https://www.roadarch.com/eateries/tbell.html"
-        }
-      ]
+      "text": "A horse-drawn vehicle",
+      "urls": [],
+      "inline_links": []
     },
     {
       "index": 14,
