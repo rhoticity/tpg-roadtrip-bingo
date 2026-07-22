@@ -110,6 +110,8 @@ class GenerateBoardsTests(unittest.TestCase):
             # and index 0 picks the first genuinely different prompt.
             class AlwaysFirstRNG:
                 def choice(self, seq: list) -> object:
+                    if not seq:
+                        raise IndexError("Cannot choose from an empty sequence")
                     return seq[0]
 
             with patch.object(generate_boards, "BOARDS_DIR", boards_dir):
