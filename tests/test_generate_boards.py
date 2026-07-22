@@ -85,6 +85,45 @@ class GenerateBoardsTests(unittest.TestCase):
             self.assertEqual(updated_cell["col"], 3)
             self.assertNotEqual(updated_cell["text"], "Hard 1")
 
+    def test_update_existing_never_replaces_prompt_with_itself(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            boards_dir = Path(tmpdir)
+            metadata_path = boards_dir / "tester.json"
+            initial_cells = [
+                generate_boards.PromptCell(index=index, row=index // 5, col=index % 5, category="Easy", text=f"Easy {index}")
+                for index in range(25)
+            ]
+            initial_cells[generate_boards.CENTER_INDEX] = generate_boards.PromptCell(
+                index=generate_boards.CENTER_INDEX,
+                row=2,
+                col=2,
+                category=generate_boards.FREE_SPACE_CATEGORY,
+                text=generate_boards.FREE_SPACE_TEXT,
+            )
+            initial_cells[3] = generate_boards.PromptCell(index=3, row=0, col=3, category="Hard", text="Hard 0")
+            generate_boards.write_metadata("tester", initial_cells, metadata_path)
+            (boards_dir / "tester.pdf").write_bytes(b"placeholder")
+
+            # Use a mock RNG that always picks index 0 from the candidates list.
+            # Before the fix, candidates included "Hard 0" itself, so index 0 would
+            # pick "Hard 0" again. After the fix, "Hard 0" is excluded from candidates
+            # and index 0 picks the first genuinely different prompt.
+            class AlwaysFirstRNG:
+                def choice(self, seq: list) -> object:
+                    return seq[0]
+
+            with patch.object(generate_boards, "BOARDS_DIR", boards_dir):
+                generate_boards.update_existing(
+                    "tester",
+                    ["Hard 0"],
+                    self.prompts,
+                    AlwaysFirstRNG(),  # type: ignore[arg-type]
+                )
+
+            updated_cells = json.loads(metadata_path.read_text(encoding="utf-8"))["cells"]
+            updated_cell = next(cell for cell in updated_cells if cell["index"] == 3)
+            self.assertNotEqual(updated_cell["text"], "Hard 0")
+
     def test_create_one_generates_png_pdf_and_json(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
             boards_dir = Path(tmpdir)
