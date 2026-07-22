@@ -1,0 +1,51 @@
+name: Generate bingo boards
+
+on:
+  issues:
+    types:
+      - opened
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: python -m pip install --requirement requirements.txt
+
+      - name: Save issue body
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          mkdir -p /tmp/bingo-issue
+          printf '%s\n' "$ISSUE_BODY" > /tmp/bingo-issue/body.txt
+
+      - name: Generate requested boards
+        run: python scripts/generate_boards.py from-issue-body /tmp/bingo-issue/body.txt
+
+      - name: Commit generated boards
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          if [ -z "$(git status --porcelain -- boards)" ]; then
+            echo "No board changes were produced."
+            exit 0
+          fi
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add boards
+          git commit -m "Generate bingo boards for issue #${ISSUE_NUMBER}"
+          git push
