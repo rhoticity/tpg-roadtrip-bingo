@@ -1,0 +1,278 @@
+{
+  "username": "EnzoDragon1",
+  "generated_at": "2026-07-23T01:27:50.207698+00:00",
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "category": "Hard",
+      "text": "Any city/municipal or county flag - list ; list",
+      "urls": [
+        "https://simple.wikipedia.org/wiki/Flags_of_cities_of_the_United_States",
+        "https://commons.wikimedia.org/wiki/Flags_of_counties_and_municipalities_in_the_United_States"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://simple.wikipedia.org/wiki/Flags_of_cities_of_the_United_States"
+        },
+        {
+          "text": "list",
+          "url": "https://commons.wikimedia.org/wiki/Flags_of_counties_and_municipalities_in_the_United_States"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "category": "Medium",
+      "text": "Any Canadian license plate",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "category": "Easy",
+      "text": "Any war or veterans' memorial",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "category": "Easy",
+      "text": "A sign with a mistake on it (e.g. missing letter, spelling/grammar, factual inaccuracy)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "col": 4,
+      "category": "Easy",
+      "text": "A sign for a road named for a place other than the one it is in (e.g. Milwaukee Avenue in Chicago)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 0,
+      "category": "Easy license plate letter/number game, only one per card from this category",
+      "text": "A license plate serial containing the numeral 9",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 1,
+      "category": "Easy",
+      "text": "Advertisement for any beer",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 2,
+      "category": "Easy",
+      "text": "A real rainbow or any depiction of a rainbow",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "col": 3,
+      "category": "Medium",
+      "text": "Any building 100m+ in height (source of truth is SkyscraperCenter)",
+      "urls": [
+        "https://www.skyscrapercenter.com/explore-data"
+      ],
+      "inline_links": [
+        {
+          "text": "SkyscraperCenter",
+          "url": "https://www.skyscrapercenter.com/explore-data"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "col": 4,
+      "category": "Easy",
+      "text": "A left hand exit",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 10,
+      "row": 2,
+      "col": 0,
+      "category": "Medium",
+      "text": "National Register of Historic Places plaque/place (list)",
+      "urls": [
+        "https://www.nps.gov/subjects/nationalregister/database-research.htm"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://www.nps.gov/subjects/nationalregister/database-research.htm"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "row": 2,
+      "col": 1,
+      "category": "Hard",
+      "text": "Any depiction of, or a live example of, a state flower in its state (e.g. California poppy in California; list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "row": 2,
+      "col": 2,
+      "category": "Free",
+      "text": "any photo of your choice",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 13,
+      "row": 2,
+      "col": 3,
+      "category": "Hard",
+      "text": "Picture within or sign of US National Monument (list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "row": 2,
+      "col": 4,
+      "category": "Easy",
+      "text": "A sign with a population count on it",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 15,
+      "row": 3,
+      "col": 0,
+      "category": "Hard",
+      "text": "A civil defense/weather siren",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 16,
+      "row": 3,
+      "col": 1,
+      "category": "Medium",
+      "text": "Any depiction of or a live bald eagle",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 17,
+      "row": 3,
+      "col": 2,
+      "category": "Medium",
+      "text": "A well (decorative or functional)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 18,
+      "row": 3,
+      "col": 3,
+      "category": "Hard",
+      "text": "Any depiction of, or a live example of, a state tree in its state (e.g. Sabal palmetto in South Carolina; list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_trees"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_trees"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "row": 3,
+      "col": 4,
+      "category": "Easy",
+      "text": "Political campaign sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 20,
+      "row": 4,
+      "col": 0,
+      "category": "Easy",
+      "text": "A sign displaying the local current time",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 21,
+      "row": 4,
+      "col": 1,
+      "category": "Easy",
+      "text": "Any wildlife/animal warning sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 22,
+      "row": 4,
+      "col": 2,
+      "category": "Medium",
+      "text": "Any depiction of George Washington",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 23,
+      "row": 4,
+      "col": 3,
+      "category": "Medium",
+      "text": "Any farm equipment",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 24,
+      "row": 4,
+      "col": 4,
+      "category": "Easy",
+      "text": "Any wild or domestic mammal except a cat or dog (in captivity accepted, live)",
+      "urls": [],
+      "inline_links": []
+    }
+  ]
+}
