@@ -1,0 +1,252 @@
+{
+  "username": "kate",
+  "generated_at": "2026-07-23T17:25:38.006501+00:00",
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "category": "Easy",
+      "text": "Any bus stop or bus station (signed school bus stops count)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "category": "Easy",
+      "text": "A sign displaying the local current temperature",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "category": "Easy",
+      "text": "Dead End/No Outlet sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "category": "Hard",
+      "text": "A mission style Taco Bell building (can be still operating as a Taco Bell, have another business in it, or vacant; representative examples)",
+      "urls": [
+        "https://www.roadarch.com/eateries/tbell.html"
+      ],
+      "inline_links": [
+        {
+          "text": "representative examples",
+          "url": "https://www.roadarch.com/eateries/tbell.html"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "col": 4,
+      "category": "Medium",
+      "text": "A greenhouse (enclosure for growing plants)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 0,
+      "category": "Medium",
+      "text": "Any US or Canada license plate that is not a \"state standard\" design (for ease of identification, \"state standard\" defined as the designs that are on the front page here, even though there are others that are considered \"standard\")",
+      "urls": [
+        "https://licenseplates.cc/"
+      ],
+      "inline_links": [
+        {
+          "text": "here",
+          "url": "https://licenseplates.cc/"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 1,
+      "category": "Medium",
+      "text": "Any depiction of Abraham Lincoln",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 2,
+      "category": "Hard",
+      "text": "Any depiction of, or a live example of, a state tree in its state (e.g. Sabal palmetto in South Carolina; list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_trees"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_trees"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "col": 3,
+      "category": "Easy",
+      "text": "A sign for any road named after any United States president",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "col": 4,
+      "category": "Medium",
+      "text": "Pay phone, phone booth, or sign for either (if it's a sign, the phone doesn't have to still be there)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 10,
+      "row": 2,
+      "col": 0,
+      "category": "Easy",
+      "text": "Sporting event center for any professional or college sport/team",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 11,
+      "row": 2,
+      "col": 1,
+      "category": "Easy",
+      "text": "Advertisement for Coca-Cola",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 12,
+      "row": 2,
+      "col": 2,
+      "category": "Free",
+      "text": "any photo of your choice",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 13,
+      "row": 2,
+      "col": 3,
+      "category": "Medium",
+      "text": "Any depiction of or a live goose",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 14,
+      "row": 2,
+      "col": 4,
+      "category": "Easy",
+      "text": "Emergency vehicle",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 15,
+      "row": 3,
+      "col": 0,
+      "category": "Easy",
+      "text": "A vehicle with three or more bumper stickers",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 16,
+      "row": 3,
+      "col": 1,
+      "category": "Easy",
+      "text": "A left hand exit",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 17,
+      "row": 3,
+      "col": 2,
+      "category": "Hard",
+      "text": "A civil defense/weather siren",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 18,
+      "row": 3,
+      "col": 3,
+      "category": "Hard",
+      "text": "Any object or place claiming in visible signage or its Google Maps POI to be the World's Largest of whatever it is",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 19,
+      "row": 3,
+      "col": 4,
+      "category": "Medium",
+      "text": "Any depiction of or a live bald eagle",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 20,
+      "row": 4,
+      "col": 0,
+      "category": "Hard",
+      "text": "Military vehicle (in use or decommissioned)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 21,
+      "row": 4,
+      "col": 1,
+      "category": "Easy license plate letter/number game, only one per card from this category",
+      "text": "A license plate serial containing the letter Y",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 22,
+      "row": 4,
+      "col": 2,
+      "category": "Medium",
+      "text": "A picture taken while clearly riding public transit of any kind (train/metro/subway/light rail, bus, etc.)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 23,
+      "row": 4,
+      "col": 3,
+      "category": "Easy",
+      "text": "A yellow automobile (taxis and school buses count)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 24,
+      "row": 4,
+      "col": 4,
+      "category": "Easy",
+      "text": "A real rainbow or any depiction of a rainbow",
+      "urls": [],
+      "inline_links": []
+    }
+  ]
+}
