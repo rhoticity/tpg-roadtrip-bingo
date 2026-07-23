@@ -1,0 +1,238 @@
+{
+  "username": "kablair",
+  "generated_at": "2026-07-23T05:10:26.357644+00:00",
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "category": "Easy",
+      "text": "Any wild or domestic bird (in captivity accepted, live)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "category": "Easy",
+      "text": "Any wildlife/animal warning sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "category": "Easy",
+      "text": "A sign displaying the local current time",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "category": "Medium",
+      "text": "A windsock (decorative or functional)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "col": 4,
+      "category": "Hard",
+      "text": "Any object or place claiming in visible signage or its Google Maps POI to be the World's Largest of whatever it is",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 0,
+      "category": "Hard",
+      "text": "Any international license plate (not US, Canada, Mexico - does not have to be current or attached to a vehicle)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 1,
+      "category": "Medium",
+      "text": "A greenhouse (enclosure for growing plants)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 2,
+      "category": "Medium",
+      "text": "Any US or Canada license plate that is not a \"state standard\" design (for ease of identification, \"state standard\" defined as the designs that are on the front page here, even though there are others that are considered \"standard\")",
+      "urls": [
+        "https://licenseplates.cc/"
+      ],
+      "inline_links": [
+        {
+          "text": "here",
+          "url": "https://licenseplates.cc/"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "col": 3,
+      "category": "Easy",
+      "text": "A damaged sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "col": 4,
+      "category": "Hard",
+      "text": "A horse-drawn vehicle",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 10,
+      "row": 2,
+      "col": 0,
+      "category": "Hard",
+      "text": "Graffiti on a freight train car",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 11,
+      "row": 2,
+      "col": 1,
+      "category": "Medium",
+      "text": "Adopt-a-Highway sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 12,
+      "row": 2,
+      "col": 2,
+      "category": "Free",
+      "text": "any photo of your choice",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 13,
+      "row": 2,
+      "col": 3,
+      "category": "Hard",
+      "text": "Military vehicle (in use or decommissioned)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 14,
+      "row": 2,
+      "col": 4,
+      "category": "Easy",
+      "text": "A neon sign (anything clearly in the neon style counts even if it's not true neon)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 15,
+      "row": 3,
+      "col": 0,
+      "category": "Medium",
+      "text": "Non-Christian religious building",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 16,
+      "row": 3,
+      "col": 1,
+      "category": "Easy",
+      "text": "A sign for a road named for a place other than the one it is in (e.g. Milwaukee Avenue in Chicago)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 17,
+      "row": 3,
+      "col": 2,
+      "category": "Medium",
+      "text": "Advertisement for a musical event/concert",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 18,
+      "row": 3,
+      "col": 3,
+      "category": "Easy",
+      "text": "A sign with a population count on it",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 19,
+      "row": 3,
+      "col": 4,
+      "category": "Medium",
+      "text": "Mini-golf (putt-putt) course",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 20,
+      "row": 4,
+      "col": 0,
+      "category": "Easy",
+      "text": "Dead End/No Outlet sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 21,
+      "row": 4,
+      "col": 1,
+      "category": "Easy",
+      "text": "Any historical marker or plaque",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 22,
+      "row": 4,
+      "col": 2,
+      "category": "Easy license plate letter/number game, only one per card from this category",
+      "text": "A license plate serial containing the letter H",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 23,
+      "row": 4,
+      "col": 3,
+      "category": "Easy",
+      "text": "A yellow automobile (taxis and school buses count)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 24,
+      "row": 4,
+      "col": 4,
+      "category": "Easy",
+      "text": "A sign with a date on it",
+      "urls": [],
+      "inline_links": []
+    }
+  ]
+}
