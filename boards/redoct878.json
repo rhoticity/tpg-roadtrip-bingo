@@ -1,0 +1,238 @@
+{
+  "username": "redoct878",
+  "generated_at": "2026-07-23T06:56:47.520632+00:00",
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "category": "Easy",
+      "text": "A water tower with writing/a logo on it",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "category": "Medium",
+      "text": "A motel with exterior room entrances",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "category": "Easy",
+      "text": "A yellow automobile (taxis and school buses count)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "category": "Easy license plate letter/number game, only one per card from this category",
+      "text": "A license plate serial containing the letter J",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "col": 4,
+      "category": "Medium",
+      "text": "Animal shelter",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 0,
+      "category": "Easy",
+      "text": "A sign marking a county OR state border",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 1,
+      "category": "Medium",
+      "text": "Any wild or captive amphibian or reptile",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 2,
+      "category": "Easy",
+      "text": "A fountain (drinking or decorative)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "col": 3,
+      "category": "Easy",
+      "text": "Any wild or domestic mammal except a cat or dog (in captivity accepted, live)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "col": 4,
+      "category": "Easy",
+      "text": "Any train station (metros/subways/light rail/etc. count)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 10,
+      "row": 2,
+      "col": 0,
+      "category": "Hard",
+      "text": "A dirty vehicle where someone has drawn/written in its dirt",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 11,
+      "row": 2,
+      "col": 1,
+      "category": "Easy",
+      "text": "Advertisement for any beer",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 12,
+      "row": 2,
+      "col": 2,
+      "category": "Free",
+      "text": "any photo of your choice",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 13,
+      "row": 2,
+      "col": 3,
+      "category": "Easy",
+      "text": "A damaged sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 14,
+      "row": 2,
+      "col": 4,
+      "category": "Hard",
+      "text": "Any depiction of, or a live example of, a state bird in its state (e.g. Northern cardinal in Illinois; list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_birds"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_U.S._state_birds"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "row": 3,
+      "col": 0,
+      "category": "Hard",
+      "text": "Any Mexican license plate",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 16,
+      "row": 3,
+      "col": 1,
+      "category": "Hard",
+      "text": "Sign indicating a distance more than 250 miles",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 17,
+      "row": 3,
+      "col": 2,
+      "category": "Easy",
+      "text": "A vehicle with three or more bumper stickers",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 18,
+      "row": 3,
+      "col": 3,
+      "category": "Hard",
+      "text": "A railroad bridge",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 19,
+      "row": 3,
+      "col": 4,
+      "category": "Easy",
+      "text": "A sign with a date on it",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 20,
+      "row": 4,
+      "col": 0,
+      "category": "Easy",
+      "text": "Advertisement for Coca-Cola",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 21,
+      "row": 4,
+      "col": 1,
+      "category": "Medium",
+      "text": "A greenhouse (enclosure for growing plants)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 22,
+      "row": 4,
+      "col": 2,
+      "category": "Medium",
+      "text": "A commemorative/informational sign/plaque for a specific bench",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 23,
+      "row": 4,
+      "col": 3,
+      "category": "Medium",
+      "text": "Pay phone, phone booth, or sign for either (if it's a sign, the phone doesn't have to still be there)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 24,
+      "row": 4,
+      "col": 4,
+      "category": "Medium",
+      "text": "Any depiction of Abraham Lincoln",
+      "urls": [],
+      "inline_links": []
+    }
+  ]
+}
