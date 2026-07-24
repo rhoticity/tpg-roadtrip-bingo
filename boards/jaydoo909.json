@@ -1,6 +1,6 @@
 {
   "username": "jaydoo909",
-  "generated_at": "2026-07-22T19:29:07.382906+00:00",
+  "generated_at": "2026-07-24T04:13:56.103102+00:00",
   "cells": [
     {
       "index": 0,
@@ -190,14 +190,14 @@
       "row": 3,
       "col": 3,
       "category": "Hard",
-      "text": "A mission style Taco Bell building (can be still operating as a Taco Bell, have another business in it, or vacant; representative examples)",
+      "text": "Any depiction of, or a live example of, a state bird in its state (e.g. Northern cardinal in Illinois; list)",
       "urls": [
-        "https://www.roadarch.com/eateries/tbell.html"
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_birds"
       ],
       "inline_links": [
         {
-          "text": "representative examples",
-          "url": "https://www.roadarch.com/eateries/tbell.html"
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_U.S._state_birds"
         }
       ]
     },
