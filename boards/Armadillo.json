@@ -1,6 +1,6 @@
 {
   "username": "Armadillo",
-  "generated_at": "2026-07-22T19:29:09.880904+00:00",
+  "generated_at": "2026-07-24T04:32:14.299598+00:00",
   "cells": [
     {
       "index": 0,
@@ -219,9 +219,16 @@
       "row": 4,
       "col": 2,
       "category": "Hard",
-      "text": "Advertisement for a local radio station",
-      "urls": [],
-      "inline_links": []
+      "text": "Picture within or sign of US National Monument (list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments"
+        }
+      ]
     },
     {
       "index": 23,
