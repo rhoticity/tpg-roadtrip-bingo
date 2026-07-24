@@ -1,6 +1,6 @@
 {
   "username": "stupiddrew9",
-  "generated_at": "2026-07-22T19:29:12.001814+00:00",
+  "generated_at": "2026-07-24T04:19:10.685742+00:00",
   "cells": [
     {
       "index": 0,
@@ -176,16 +176,9 @@
       "row": 3,
       "col": 3,
       "category": "Hard",
-      "text": "A mission style Taco Bell building (can be still operating as a Taco Bell, have another business in it, or vacant; representative examples)",
-      "urls": [
-        "https://www.roadarch.com/eateries/tbell.html"
-      ],
-      "inline_links": [
-        {
-          "text": "representative examples",
-          "url": "https://www.roadarch.com/eateries/tbell.html"
-        }
-      ]
+      "text": "A dirty vehicle where someone has drawn/written in its dirt",
+      "urls": [],
+      "inline_links": []
     },
     {
       "index": 19,
