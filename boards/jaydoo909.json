@@ -1,6 +1,6 @@
 {
   "username": "jaydoo909",
-  "generated_at": "2026-07-26T04:09:55.615493+00:00",
+  "generated_at": "2026-07-26T04:10:47.226402+00:00",
   "cells": [
     {
       "index": 0,
@@ -140,16 +140,9 @@
       "row": 2,
       "col": 4,
       "category": "Hard",
-      "text": "Picture within or sign of US National Monument (list)",
-      "urls": [
-        "https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments"
-      ],
-      "inline_links": [
-        {
-          "text": "list",
-          "url": "https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments"
-        }
-      ]
+      "text": "A civil defense/weather siren",
+      "urls": [],
+      "inline_links": []
     },
     {
       "index": 15,
