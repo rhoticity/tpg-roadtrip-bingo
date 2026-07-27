@@ -1,6 +1,6 @@
 {
   "username": "Loading",
-  "generated_at": "2026-07-22T20:54:37.557720+00:00",
+  "generated_at": "2026-07-27T14:07:29.395468+00:00",
   "cells": [
     {
       "index": 0,
@@ -86,16 +86,9 @@
       "row": 1,
       "col": 3,
       "category": "Hard",
-      "text": "A mansard-roof Pizza Hut building (can be still operating as a Pizza Hut, have another business in it, or vacant; representative examples)",
-      "urls": [
-        "https://usedtobeapizzahut.com/"
-      ],
-      "inline_links": [
-        {
-          "text": "representative examples",
-          "url": "https://usedtobeapizzahut.com/"
-        }
-      ]
+      "text": "Sign indicating a distance more than 250 miles",
+      "urls": [],
+      "inline_links": []
     },
     {
       "index": 9,
