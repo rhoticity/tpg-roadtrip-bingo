@@ -1,6 +1,6 @@
 {
   "username": "Loading",
-  "generated_at": "2026-07-27T14:07:29.395468+00:00",
+  "generated_at": "2026-07-27T14:08:49.491648+00:00",
   "cells": [
     {
       "index": 0,
@@ -95,16 +95,9 @@
       "row": 1,
       "col": 4,
       "category": "Hard",
-      "text": "An A-frame IHOP building (can be still operating as IHOP, have another business in it, or vacant; representative examples)",
-      "urls": [
-        "https://www.roadarch.com/eateries/ihop.html"
-      ],
-      "inline_links": [
-        {
-          "text": "representative examples",
-          "url": "https://www.roadarch.com/eateries/ihop.html"
-        }
-      ]
+      "text": "Military vehicle (in use or decommissioned)",
+      "urls": [],
+      "inline_links": []
     },
     {
       "index": 10,
