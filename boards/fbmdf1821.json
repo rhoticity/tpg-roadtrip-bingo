@@ -1,6 +1,6 @@
 {
   "username": "fbmdf1821",
-  "generated_at": "2026-07-22T19:29:09.673264+00:00",
+  "generated_at": "2026-07-27T14:20:00.912217+00:00",
   "cells": [
     {
       "index": 0,
@@ -212,16 +212,9 @@
       "row": 4,
       "col": 2,
       "category": "Hard",
-      "text": "An A-frame IHOP building (can be still operating as IHOP, have another business in it, or vacant; representative examples)",
-      "urls": [
-        "https://www.roadarch.com/eateries/ihop.html"
-      ],
-      "inline_links": [
-        {
-          "text": "representative examples",
-          "url": "https://www.roadarch.com/eateries/ihop.html"
-        }
-      ]
+      "text": "A drawbridge/lift bridge",
+      "urls": [],
+      "inline_links": []
     },
     {
       "index": 23,
