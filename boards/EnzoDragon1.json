@@ -1,6 +1,6 @@
 {
   "username": "EnzoDragon1",
-  "generated_at": "2026-07-23T01:27:50.207698+00:00",
+  "generated_at": "2026-07-27T14:11:53.616293+00:00",
   "cells": [
     {
       "index": 0,
@@ -132,16 +132,9 @@
       "row": 2,
       "col": 1,
       "category": "Hard",
-      "text": "Any depiction of, or a live example of, a state flower in its state (e.g. California poppy in California; list)",
-      "urls": [
-        "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers"
-      ],
-      "inline_links": [
-        {
-          "text": "list",
-          "url": "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers"
-        }
-      ]
+      "text": "Military vehicle (in use or decommissioned)",
+      "urls": [],
+      "inline_links": []
     },
     {
       "index": 12,
