@@ -1,13 +1,13 @@
 {
   "username": "Armadillo",
-  "generated_at": "2026-07-24T04:32:14.299598+00:00",
+  "generated_at": "2026-07-27T03:55:14.559288+00:00",
   "cells": [
     {
       "index": 0,
       "row": 0,
       "col": 0,
-      "category": "Easy",
-      "text": "A sign displaying the local current time",
+      "category": "Medium",
+      "text": "Non-Christian religious building",
       "urls": [],
       "inline_links": []
     },
@@ -16,7 +16,7 @@
       "row": 0,
       "col": 1,
       "category": "Easy",
-      "text": "A sign with a mistake on it (e.g. missing letter, spelling/grammar, factual inaccuracy)",
+      "text": "A street sign indicating commemerative/honorary naming of that roadway",
       "urls": [],
       "inline_links": []
     },
@@ -24,24 +24,17 @@
       "index": 2,
       "row": 0,
       "col": 2,
-      "category": "Medium",
-      "text": "Any US or Canada license plate that is not a \"state standard\" design (for ease of identification, \"state standard\" defined as the designs that are on the front page here, even though there are others that are considered \"standard\")",
-      "urls": [
-        "https://licenseplates.cc/"
-      ],
-      "inline_links": [
-        {
-          "text": "here",
-          "url": "https://licenseplates.cc/"
-        }
-      ]
+      "category": "Easy",
+      "text": "Any war or veterans' memorial",
+      "urls": [],
+      "inline_links": []
     },
     {
       "index": 3,
       "row": 0,
       "col": 3,
-      "category": "Easy license plate letter/number game, only one per card from this category",
-      "text": "A license plate serial containing the letter A",
+      "category": "Easy",
+      "text": "A damaged sign",
       "urls": [],
       "inline_links": []
     },
@@ -50,7 +43,7 @@
       "row": 0,
       "col": 4,
       "category": "Easy",
-      "text": "A sign marking a county OR state border",
+      "text": "A left hand exit",
       "urls": [],
       "inline_links": []
     },
@@ -58,8 +51,8 @@
       "index": 5,
       "row": 1,
       "col": 0,
-      "category": "Easy",
-      "text": "Any historical marker or plaque",
+      "category": "Medium",
+      "text": "Any depiction of George Washington",
       "urls": [],
       "inline_links": []
     },
@@ -68,7 +61,7 @@
       "row": 1,
       "col": 1,
       "category": "Easy",
-      "text": "A sign advertising fireworks or fireworks store",
+      "text": "A water tower with writing/a logo on it",
       "urls": [],
       "inline_links": []
     },
@@ -76,8 +69,8 @@
       "index": 7,
       "row": 1,
       "col": 2,
-      "category": "Easy",
-      "text": "A sign for any road named after any United States president",
+      "category": "Medium",
+      "text": "A commemorative/informational sign/plaque for a specific tree",
       "urls": [],
       "inline_links": []
     },
@@ -85,8 +78,8 @@
       "index": 8,
       "row": 1,
       "col": 3,
-      "category": "Medium",
-      "text": "Mini-golf (putt-putt) course",
+      "category": "Hard",
+      "text": "Military vehicle (in use or decommissioned)",
       "urls": [],
       "inline_links": []
     },
@@ -95,7 +88,7 @@
       "row": 1,
       "col": 4,
       "category": "Easy",
-      "text": "A water tower with writing/a logo on it",
+      "text": "A sign displaying the local current time",
       "urls": [],
       "inline_links": []
     },
@@ -104,7 +97,7 @@
       "row": 2,
       "col": 0,
       "category": "Easy",
-      "text": "Any wild or domestic bird (in captivity accepted, live)",
+      "text": "A sign with a mistake on it (e.g. missing letter, spelling/grammar, factual inaccuracy)",
       "urls": [],
       "inline_links": []
     },
@@ -112,8 +105,8 @@
       "index": 11,
       "row": 2,
       "col": 1,
-      "category": "Medium",
-      "text": "Sign or building for any fraternal organization (Elks, Masons, Odd Fellows, etc.)",
+      "category": "Easy",
+      "text": "Any historical marker or plaque",
       "urls": [],
       "inline_links": []
     },
@@ -130,8 +123,8 @@
       "index": 13,
       "row": 2,
       "col": 3,
-      "category": "Easy",
-      "text": "A fountain (drinking or decorative)",
+      "category": "Medium",
+      "text": "Any farm equipment",
       "urls": [],
       "inline_links": []
     },
@@ -139,8 +132,8 @@
       "index": 14,
       "row": 2,
       "col": 4,
-      "category": "Medium",
-      "text": "Advertisement for a personal injury lawyer/firm",
+      "category": "Easy",
+      "text": "A sign with a date on it",
       "urls": [],
       "inline_links": []
     },
@@ -148,24 +141,6 @@
       "index": 15,
       "row": 3,
       "col": 0,
-      "category": "Hard",
-      "text": "Any object or place claiming in visible signage or its Google Maps POI to be the World's Largest of whatever it is",
-      "urls": [],
-      "inline_links": []
-    },
-    {
-      "index": 16,
-      "row": 3,
-      "col": 1,
-      "category": "Medium",
-      "text": "Any farm equipment",
-      "urls": [],
-      "inline_links": []
-    },
-    {
-      "index": 17,
-      "row": 3,
-      "col": 2,
       "category": "Hard",
       "text": "Any depiction of, or a live example of, a state flower in its state (e.g. California poppy in California; list)",
       "urls": [
@@ -179,11 +154,29 @@
       ]
     },
     {
+      "index": 16,
+      "row": 3,
+      "col": 1,
+      "category": "Easy",
+      "text": "A sign marking a county OR state border",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 17,
+      "row": 3,
+      "col": 2,
+      "category": "Easy license plate letter/number game, only one per card from this category",
+      "text": "A license plate serial containing the letter N",
+      "urls": [],
+      "inline_links": []
+    },
+    {
       "index": 18,
       "row": 3,
       "col": 3,
-      "category": "Hard",
-      "text": "Any Mexican license plate",
+      "category": "Easy",
+      "text": "A neon sign (anything clearly in the neon style counts even if it's not true neon)",
       "urls": [],
       "inline_links": []
     },
@@ -191,8 +184,8 @@
       "index": 19,
       "row": 3,
       "col": 4,
-      "category": "Easy",
-      "text": "A sign for any road named Main",
+      "category": "Medium",
+      "text": "A well (decorative or functional)",
       "urls": [],
       "inline_links": []
     },
@@ -200,8 +193,8 @@
       "index": 20,
       "row": 4,
       "col": 0,
-      "category": "Easy",
-      "text": "A sign for a road named after any kind of tree",
+      "category": "Hard",
+      "text": "A drive-in restaurant or movie theater that calls itself a drive-in on its signage/Google Maps POI",
       "urls": [],
       "inline_links": []
     },
@@ -210,32 +203,32 @@
       "row": 4,
       "col": 1,
       "category": "Medium",
-      "text": "Animal shelter",
-      "urls": [],
-      "inline_links": []
+      "text": "Any regional restaurant (anything on this list )",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Category:Regional_restaurant_chains_in_the_United_States"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/Category:Regional_restaurant_chains_in_the_United_States"
+        }
+      ]
     },
     {
       "index": 22,
       "row": 4,
       "col": 2,
       "category": "Hard",
-      "text": "Picture within or sign of US National Monument (list)",
-      "urls": [
-        "https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments"
-      ],
-      "inline_links": [
-        {
-          "text": "list",
-          "url": "https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments"
-        }
-      ]
+      "text": "Any Mexican license plate",
+      "urls": [],
+      "inline_links": []
     },
     {
       "index": 23,
       "row": 4,
       "col": 3,
-      "category": "Medium",
-      "text": "Any Canadian license plate",
+      "category": "Hard",
+      "text": "Any object or place claiming in visible signage or its Google Maps POI to be the World's Largest of whatever it is",
       "urls": [],
       "inline_links": []
     },
@@ -243,8 +236,8 @@
       "index": 24,
       "row": 4,
       "col": 4,
-      "category": "Hard",
-      "text": "A train that's no longer on train tracks",
+      "category": "Medium",
+      "text": "A building with an architectural dome/cupola",
       "urls": [],
       "inline_links": []
     }
