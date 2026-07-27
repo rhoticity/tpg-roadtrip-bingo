@@ -1,6 +1,6 @@
 {
   "username": "igotsap",
-  "generated_at": "2026-07-23T05:12:11.219559+00:00",
+  "generated_at": "2026-07-27T04:05:22.240154+00:00",
   "cells": [
     {
       "index": 0,
@@ -79,9 +79,16 @@
       "row": 1,
       "col": 3,
       "category": "Hard",
-      "text": "Any international license plate (not US, Canada, Mexico - does not have to be current or attached to a vehicle)",
-      "urls": [],
-      "inline_links": []
+      "text": "Any depiction of, or a live example of, a state tree in its state (e.g. Sabal palmetto in South Carolina; list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_trees"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_trees"
+        }
+      ]
     },
     {
       "index": 9,
