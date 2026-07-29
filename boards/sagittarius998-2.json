@@ -1,0 +1,252 @@
+{
+  "username": "sagittarius998-2",
+  "generated_at": "2026-07-29T18:17:17.812016+00:00",
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "category": "Easy",
+      "text": "Emergency vehicle",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "category": "Easy",
+      "text": "Sporting event center for any professional or college sport/team",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "category": "Easy",
+      "text": "A sign with a date on it",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "category": "Medium",
+      "text": "A windsock (decorative or functional)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "col": 4,
+      "category": "Medium",
+      "text": "Produce stand (farmers' markets count)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 0,
+      "category": "Medium",
+      "text": "Any depiction of or a live bald eagle",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 1,
+      "category": "Medium",
+      "text": "A building with an architectural dome/cupola",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 2,
+      "category": "Easy",
+      "text": "Any historical marker or plaque",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "col": 3,
+      "category": "Easy",
+      "text": "A sign for a road named for a place other than the one it is in (e.g. Milwaukee Avenue in Chicago)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "col": 4,
+      "category": "Hard",
+      "text": "A railroad bridge",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 10,
+      "row": 2,
+      "col": 0,
+      "category": "Easy",
+      "text": "Any bus stop or bus station (signed school bus stops count)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 11,
+      "row": 2,
+      "col": 1,
+      "category": "Easy",
+      "text": "A damaged sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 12,
+      "row": 2,
+      "col": 2,
+      "category": "Free",
+      "text": "any photo of your choice",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 13,
+      "row": 2,
+      "col": 3,
+      "category": "Easy",
+      "text": "Political campaign sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 14,
+      "row": 2,
+      "col": 4,
+      "category": "Easy",
+      "text": "A yellow automobile (taxis and school buses count)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 15,
+      "row": 3,
+      "col": 0,
+      "category": "Hard",
+      "text": "An A-frame IHOP building (can be still operating as IHOP, have another business in it, or vacant; representative examples)",
+      "urls": [
+        "https://www.roadarch.com/eateries/ihop.html"
+      ],
+      "inline_links": [
+        {
+          "text": "representative examples",
+          "url": "https://www.roadarch.com/eateries/ihop.html"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "row": 3,
+      "col": 1,
+      "category": "Easy",
+      "text": "Any war or veterans' memorial",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 17,
+      "row": 3,
+      "col": 2,
+      "category": "Medium",
+      "text": "A Bible verse reference or full text",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 18,
+      "row": 3,
+      "col": 3,
+      "category": "Hard",
+      "text": "Any depiction of, or a live example of, a state bird in its state (e.g. Northern cardinal in Illinois; list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_birds"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_U.S._state_birds"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "row": 3,
+      "col": 4,
+      "category": "Hard",
+      "text": "Picture within or sign of US National Park (list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "row": 4,
+      "col": 0,
+      "category": "Hard",
+      "text": "A drive-in restaurant or movie theater that calls itself a drive-in on its signage/Google Maps POI",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 21,
+      "row": 4,
+      "col": 1,
+      "category": "Medium",
+      "text": "A sign indicating something was established on a date in or before 1950 (the thing doesn't have to still be extant or functional)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 22,
+      "row": 4,
+      "col": 2,
+      "category": "Easy",
+      "text": "A sign displaying the local current temperature",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 23,
+      "row": 4,
+      "col": 3,
+      "category": "Medium",
+      "text": "Any depiction of or a live goose",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 24,
+      "row": 4,
+      "col": 4,
+      "category": "Easy license plate letter/number game, only one per card from this category",
+      "text": "A license plate serial containing the letter Q",
+      "urls": [],
+      "inline_links": []
+    }
+  ]
+}
