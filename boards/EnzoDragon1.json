@@ -1,11 +1,38 @@
 {
   "username": "EnzoDragon1",
-  "generated_at": "2026-07-27T14:14:39.644945+00:00",
+  "generated_at": "2026-07-30T21:32:09.780688+00:00",
   "cells": [
     {
       "index": 0,
       "row": 0,
       "col": 0,
+      "category": "Medium",
+      "text": "A Bible verse reference or full text",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "category": "Medium",
+      "text": "Any wild or captive amphibian or reptile",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "category": "Easy",
+      "text": "Dead End/No Outlet sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
       "category": "Hard",
       "text": "Any city/municipal or county flag - list ; list",
       "urls": [
@@ -24,38 +51,11 @@
       ]
     },
     {
-      "index": 1,
-      "row": 0,
-      "col": 1,
-      "category": "Medium",
-      "text": "Any Canadian license plate",
-      "urls": [],
-      "inline_links": []
-    },
-    {
-      "index": 2,
-      "row": 0,
-      "col": 2,
-      "category": "Easy",
-      "text": "Any war or veterans' memorial",
-      "urls": [],
-      "inline_links": []
-    },
-    {
-      "index": 3,
-      "row": 0,
-      "col": 3,
-      "category": "Easy",
-      "text": "A sign with a mistake on it (e.g. missing letter, spelling/grammar, factual inaccuracy)",
-      "urls": [],
-      "inline_links": []
-    },
-    {
       "index": 4,
       "row": 0,
       "col": 4,
-      "category": "Easy",
-      "text": "A sign for a road named for a place other than the one it is in (e.g. Milwaukee Avenue in Chicago)",
+      "category": "Hard",
+      "text": "Advertisement for a local radio station",
       "urls": [],
       "inline_links": []
     },
@@ -63,8 +63,8 @@
       "index": 5,
       "row": 1,
       "col": 0,
-      "category": "Easy license plate letter/number game, only one per card from this category",
-      "text": "A license plate serial containing the numeral 9",
+      "category": "Easy",
+      "text": "A sign advertising fireworks or fireworks store",
       "urls": [],
       "inline_links": []
     },
@@ -72,8 +72,8 @@
       "index": 6,
       "row": 1,
       "col": 1,
-      "category": "Easy",
-      "text": "Advertisement for any beer",
+      "category": "Medium",
+      "text": "Any depiction of Abraham Lincoln",
       "urls": [],
       "inline_links": []
     },
@@ -82,7 +82,7 @@
       "row": 1,
       "col": 2,
       "category": "Easy",
-      "text": "A real rainbow or any depiction of a rainbow",
+      "text": "A sign displaying the local current temperature",
       "urls": [],
       "inline_links": []
     },
@@ -90,15 +90,15 @@
       "index": 8,
       "row": 1,
       "col": 3,
-      "category": "Medium",
-      "text": "Any building 100m+ in height (source of truth is SkyscraperCenter)",
+      "category": "Hard",
+      "text": "Any depiction of, or a live example of, a state bird in its state (e.g. Northern cardinal in Illinois; list)",
       "urls": [
-        "https://www.skyscrapercenter.com/explore-data"
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_birds"
       ],
       "inline_links": [
         {
-          "text": "SkyscraperCenter",
-          "url": "https://www.skyscrapercenter.com/explore-data"
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_U.S._state_birds"
         }
       ]
     },
@@ -107,7 +107,7 @@
       "row": 1,
       "col": 4,
       "category": "Easy",
-      "text": "A left hand exit",
+      "text": "Any historical marker or plaque",
       "urls": [],
       "inline_links": []
     },
@@ -115,24 +115,17 @@
       "index": 10,
       "row": 2,
       "col": 0,
-      "category": "Medium",
-      "text": "National Register of Historic Places plaque/place (list)",
-      "urls": [
-        "https://www.nps.gov/subjects/nationalregister/database-research.htm"
-      ],
-      "inline_links": [
-        {
-          "text": "list",
-          "url": "https://www.nps.gov/subjects/nationalregister/database-research.htm"
-        }
-      ]
+      "category": "Easy",
+      "text": "Any wildlife/animal warning sign",
+      "urls": [],
+      "inline_links": []
     },
     {
       "index": 11,
       "row": 2,
       "col": 1,
-      "category": "Hard",
-      "text": "Military vehicle (in use or decommissioned)",
+      "category": "Medium",
+      "text": "Mini-golf (putt-putt) course",
       "urls": [],
       "inline_links": []
     },
@@ -149,24 +142,17 @@
       "index": 13,
       "row": 2,
       "col": 3,
-      "category": "Hard",
-      "text": "Picture within or sign of US National Monument (list)",
-      "urls": [
-        "https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments"
-      ],
-      "inline_links": [
-        {
-          "text": "list",
-          "url": "https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments"
-        }
-      ]
+      "category": "Easy",
+      "text": "A sign for any road named Main",
+      "urls": [],
+      "inline_links": []
     },
     {
       "index": 14,
       "row": 2,
       "col": 4,
-      "category": "Easy",
-      "text": "A sign with a population count on it",
+      "category": "Hard",
+      "text": "A train that's no longer on train tracks",
       "urls": [],
       "inline_links": []
     },
@@ -174,8 +160,8 @@
       "index": 15,
       "row": 3,
       "col": 0,
-      "category": "Hard",
-      "text": "A civil defense/weather siren",
+      "category": "Easy",
+      "text": "Sporting event center for any professional or college sport/team",
       "urls": [],
       "inline_links": []
     },
@@ -184,7 +170,7 @@
       "row": 3,
       "col": 1,
       "category": "Medium",
-      "text": "Any depiction of or a live bald eagle",
+      "text": "A commemorative/informational sign/plaque for a specific bench",
       "urls": [],
       "inline_links": []
     },
@@ -192,8 +178,8 @@
       "index": 17,
       "row": 3,
       "col": 2,
-      "category": "Medium",
-      "text": "A picture of the thing a street is named for, visible from or located on that street (e.g. a sunset taken from Sunset Boulevard; an oak tree on Oak Street)",
+      "category": "Easy",
+      "text": "Any wild or domestic bird (in captivity accepted, live)",
       "urls": [],
       "inline_links": []
     },
@@ -201,24 +187,17 @@
       "index": 18,
       "row": 3,
       "col": 3,
-      "category": "Hard",
-      "text": "Any depiction of, or a live example of, a state tree in its state (e.g. Sabal palmetto in South Carolina; list)",
-      "urls": [
-        "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_trees"
-      ],
-      "inline_links": [
-        {
-          "text": "list",
-          "url": "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_trees"
-        }
-      ]
+      "category": "Medium",
+      "text": "A motel with exterior room entrances",
+      "urls": [],
+      "inline_links": []
     },
     {
       "index": 19,
       "row": 3,
       "col": 4,
       "category": "Easy",
-      "text": "Political campaign sign",
+      "text": "A sign with a date on it",
       "urls": [],
       "inline_links": []
     },
@@ -227,7 +206,7 @@
       "row": 4,
       "col": 0,
       "category": "Easy",
-      "text": "A sign displaying the local current time",
+      "text": "Advertisement for Coca-Cola",
       "urls": [],
       "inline_links": []
     },
@@ -236,7 +215,7 @@
       "row": 4,
       "col": 1,
       "category": "Easy",
-      "text": "Any wildlife/animal warning sign",
+      "text": "A sign with a population count on it",
       "urls": [],
       "inline_links": []
     },
@@ -244,8 +223,8 @@
       "index": 22,
       "row": 4,
       "col": 2,
-      "category": "Medium",
-      "text": "Any depiction of George Washington",
+      "category": "Easy license plate letter/number game, only one per card from this category",
+      "text": "A license plate serial containing the letter M",
       "urls": [],
       "inline_links": []
     },
@@ -253,8 +232,8 @@
       "index": 23,
       "row": 4,
       "col": 3,
-      "category": "Medium",
-      "text": "Any farm equipment",
+      "category": "Hard",
+      "text": "A decommissioned flying vehicle (airplane, helicopter, blimp, etc.)",
       "urls": [],
       "inline_links": []
     },
@@ -262,8 +241,8 @@
       "index": 24,
       "row": 4,
       "col": 4,
-      "category": "Easy",
-      "text": "A sign marking a county OR state border",
+      "category": "Medium",
+      "text": "A building with an architectural dome/cupola",
       "urls": [],
       "inline_links": []
     }
