@@ -1,6 +1,6 @@
 {
   "username": "Steve Lira",
-  "generated_at": "2026-07-22T19:29:10.067069+00:00",
+  "generated_at": "2026-08-01T16:39:08.122274+00:00",
   "cells": [
     {
       "index": 0,
@@ -165,9 +165,16 @@
       "row": 3,
       "col": 1,
       "category": "Hard",
-      "text": "A drawbridge/lift bridge",
-      "urls": [],
-      "inline_links": []
+      "text": "Picture within or sign of US National Monument (list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments"
+        }
+      ]
     },
     {
       "index": 17,
