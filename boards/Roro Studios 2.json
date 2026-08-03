@@ -1,0 +1,245 @@
+{
+  "username": "Roro Studios 2",
+  "generated_at": "2026-08-03T15:28:08.565158+00:00",
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "category": "Hard",
+      "text": "A railroad bridge",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "category": "Hard",
+      "text": "Any depiction of, or a live example of, a state flower in its state (e.g. California poppy in California; list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "category": "Easy",
+      "text": "A sign displaying the local current temperature",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "category": "Medium",
+      "text": "Advertisement for, fairgrounds/sign for, or the actual event of a state or county fair",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "col": 4,
+      "category": "Easy",
+      "text": "Advertisement for Coca-Cola",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 0,
+      "category": "Easy",
+      "text": "Political campaign sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 1,
+      "category": "Hard",
+      "text": "Any Mexican license plate",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 2,
+      "category": "Easy",
+      "text": "A sign displaying the local current time",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "col": 3,
+      "category": "Medium",
+      "text": "Any depiction of George Washington",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "col": 4,
+      "category": "Hard",
+      "text": "Any object or place claiming in visible signage or its Google Maps POI to be the World's Largest of whatever it is",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 10,
+      "row": 2,
+      "col": 0,
+      "category": "Easy",
+      "text": "Any wild or domestic bird (in captivity accepted, live)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 11,
+      "row": 2,
+      "col": 1,
+      "category": "Easy",
+      "text": "Any wildlife/animal warning sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 12,
+      "row": 2,
+      "col": 2,
+      "category": "Free",
+      "text": "any photo of your choice",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 13,
+      "row": 2,
+      "col": 3,
+      "category": "Easy",
+      "text": "A sign advertising fireworks or fireworks store",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 14,
+      "row": 2,
+      "col": 4,
+      "category": "Easy",
+      "text": "Private property/no trespassing sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 15,
+      "row": 3,
+      "col": 0,
+      "category": "Medium",
+      "text": "A commemorative/informational sign/plaque for a specific tree",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 16,
+      "row": 3,
+      "col": 1,
+      "category": "Medium",
+      "text": "Any building 100m+ in height (source of truth is SkyscraperCenter)",
+      "urls": [
+        "https://www.skyscrapercenter.com/explore-data"
+      ],
+      "inline_links": [
+        {
+          "text": "SkyscraperCenter",
+          "url": "https://www.skyscrapercenter.com/explore-data"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "row": 3,
+      "col": 2,
+      "category": "Medium",
+      "text": "Any wild or captive amphibian or reptile",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 18,
+      "row": 3,
+      "col": 3,
+      "category": "Medium",
+      "text": "A commemorative/informational sign/plaque for a specific bench",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 19,
+      "row": 3,
+      "col": 4,
+      "category": "Hard",
+      "text": "A dirty vehicle where someone has drawn/written in its dirt",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 20,
+      "row": 4,
+      "col": 0,
+      "category": "Medium",
+      "text": "Any depiction of or a live bald eagle",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 21,
+      "row": 4,
+      "col": 1,
+      "category": "Easy",
+      "text": "A yellow automobile (taxis and school buses count)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 22,
+      "row": 4,
+      "col": 2,
+      "category": "Easy",
+      "text": "Any train station (metros/subways/light rail/etc. count)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 23,
+      "row": 4,
+      "col": 3,
+      "category": "Easy",
+      "text": "A sign marking a county OR state border",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 24,
+      "row": 4,
+      "col": 4,
+      "category": "Easy license plate letter/number game, only one per card from this category",
+      "text": "A license plate serial containing the numeral 4",
+      "urls": [],
+      "inline_links": []
+    }
+  ]
+}
