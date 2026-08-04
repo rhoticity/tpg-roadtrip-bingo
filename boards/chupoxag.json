@@ -1,6 +1,6 @@
 {
   "username": "chupoxag",
-  "generated_at": "2026-07-22T19:29:08.737819+00:00",
+  "generated_at": "2026-08-04T03:12:01.513940+00:00",
   "cells": [
     {
       "index": 0,
@@ -160,9 +160,16 @@
       "row": 3,
       "col": 2,
       "category": "Hard",
-      "text": "Advertisement for a local radio station",
-      "urls": [],
-      "inline_links": []
+      "text": "Picture within or sign of US National Monument (list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments"
+        }
+      ]
     },
     {
       "index": 18,
