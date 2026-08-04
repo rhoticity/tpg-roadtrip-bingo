@@ -1,0 +1,245 @@
+{
+  "username": "chupoxag2",
+  "generated_at": "2026-08-04T05:41:45.565598+00:00",
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "category": "Easy license plate letter/number game, only one per card from this category",
+      "text": "A license plate serial containing the letter M",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "category": "Hard",
+      "text": "A mansard-roof Pizza Hut building (can be still operating as a Pizza Hut, have another business in it, or vacant; representative examples)",
+      "urls": [
+        "https://usedtobeapizzahut.com/"
+      ],
+      "inline_links": [
+        {
+          "text": "representative examples",
+          "url": "https://usedtobeapizzahut.com/"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "category": "Medium",
+      "text": "Any US state flag",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "category": "Medium",
+      "text": "Animal shelter",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "col": 4,
+      "category": "Medium",
+      "text": "A bilingual sign (can have more than two languages)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 0,
+      "category": "Easy",
+      "text": "Any wild or domestic mammal except a cat or dog (in captivity accepted, live)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 1,
+      "category": "Easy",
+      "text": "A sign for any highway concurrency (interstate/US highway/state highway/county road sharing the same roadway)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 2,
+      "category": "Easy",
+      "text": "A street sign indicating commemerative/honorary naming of that roadway",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "col": 3,
+      "category": "Hard",
+      "text": "Graffiti on a freight train car",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "col": 4,
+      "category": "Easy",
+      "text": "A sign displaying the local current temperature",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 10,
+      "row": 2,
+      "col": 0,
+      "category": "Easy",
+      "text": "Any wildlife/animal warning sign",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 11,
+      "row": 2,
+      "col": 1,
+      "category": "Easy",
+      "text": "A sign marking a county OR state border",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 12,
+      "row": 2,
+      "col": 2,
+      "category": "Free",
+      "text": "any photo of your choice",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 13,
+      "row": 2,
+      "col": 3,
+      "category": "Medium",
+      "text": "Any regional restaurant (anything on this list )",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Category:Regional_restaurant_chains_in_the_United_States"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/Category:Regional_restaurant_chains_in_the_United_States"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "row": 2,
+      "col": 4,
+      "category": "Easy",
+      "text": "A sign advertising fireworks or fireworks store",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 15,
+      "row": 3,
+      "col": 0,
+      "category": "Easy",
+      "text": "A sign marking a municipality border",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 16,
+      "row": 3,
+      "col": 1,
+      "category": "Hard",
+      "text": "A decommissioned flying vehicle (airplane, helicopter, blimp, etc.)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 17,
+      "row": 3,
+      "col": 2,
+      "category": "Medium",
+      "text": "Pay phone, phone booth, or sign for either (if it's a sign, the phone doesn't have to still be there)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 18,
+      "row": 3,
+      "col": 3,
+      "category": "Easy",
+      "text": "Any war or veterans' memorial",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 19,
+      "row": 3,
+      "col": 4,
+      "category": "Easy",
+      "text": "A sign with a population count on it",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 20,
+      "row": 4,
+      "col": 0,
+      "category": "Medium",
+      "text": "Advertisement for a musical event/concert",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 21,
+      "row": 4,
+      "col": 1,
+      "category": "Easy",
+      "text": "Advertisement for Coca-Cola",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 22,
+      "row": 4,
+      "col": 2,
+      "category": "Hard",
+      "text": "A horse-drawn vehicle",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 23,
+      "row": 4,
+      "col": 3,
+      "category": "Medium",
+      "text": "Any Canadian license plate",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 24,
+      "row": 4,
+      "col": 4,
+      "category": "Hard",
+      "text": "A drive-in restaurant or movie theater that calls itself a drive-in on its signage/Google Maps POI",
+      "urls": [],
+      "inline_links": []
+    }
+  ]
+}
