@@ -1,0 +1,264 @@
+{
+  "username": "sagittarius-998-3",
+  "generated_at": "2026-08-15T03:50:15.421620+00:00",
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "category": "Hard",
+      "text": "Any depiction of, or a live example of, a state flower in its state (e.g. California poppy in California; list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "category": "Medium",
+      "text": "A picture of the thing a street is named for, visible from or located on that street (e.g. a sunset taken from Sunset Boulevard; an oak tree on Oak Street)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "category": "Easy license plate letter/number game, only one per card from this category",
+      "text": "A license plate serial containing the letter M",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "category": "Medium",
+      "text": "Animal shelter",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "col": 4,
+      "category": "Hard",
+      "text": "A horse-drawn vehicle",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 0,
+      "category": "Medium",
+      "text": "A motel with exterior room entrances",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 1,
+      "category": "Easy",
+      "text": "Any war or veterans' memorial",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 2,
+      "category": "Easy",
+      "text": "A sign for any road named Main",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "col": 3,
+      "category": "Easy",
+      "text": "A sign for any road named after any United States president",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "col": 4,
+      "category": "Hard",
+      "text": "Any city/municipal or county flag - list ; list",
+      "urls": [
+        "https://simple.wikipedia.org/wiki/Flags_of_cities_of_the_United_States",
+        "https://commons.wikimedia.org/wiki/Flags_of_counties_and_municipalities_in_the_United_States"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://simple.wikipedia.org/wiki/Flags_of_cities_of_the_United_States"
+        },
+        {
+          "text": "list",
+          "url": "https://commons.wikimedia.org/wiki/Flags_of_counties_and_municipalities_in_the_United_States"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "row": 2,
+      "col": 0,
+      "category": "Easy",
+      "text": "Sporting event center for any professional or college sport/team",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 11,
+      "row": 2,
+      "col": 1,
+      "category": "Easy",
+      "text": "A vehicle with three or more bumper stickers",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 12,
+      "row": 2,
+      "col": 2,
+      "category": "Free",
+      "text": "any photo of your choice",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 13,
+      "row": 2,
+      "col": 3,
+      "category": "Easy",
+      "text": "Any historical marker or plaque",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 14,
+      "row": 2,
+      "col": 4,
+      "category": "Medium",
+      "text": "A bilingual sign (can have more than two languages)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 15,
+      "row": 3,
+      "col": 0,
+      "category": "Hard",
+      "text": "Picture within or sign of US National Park (list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "row": 3,
+      "col": 1,
+      "category": "Medium",
+      "text": "Advertisement for a personal injury lawyer/firm",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 17,
+      "row": 3,
+      "col": 2,
+      "category": "Easy",
+      "text": "A sign advertising fireworks or fireworks store",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 18,
+      "row": 3,
+      "col": 3,
+      "category": "Hard",
+      "text": "A mission style Taco Bell building (can be still operating as a Taco Bell, have another business in it, or vacant; representative examples)",
+      "urls": [
+        "https://www.roadarch.com/eateries/tbell.html"
+      ],
+      "inline_links": [
+        {
+          "text": "representative examples",
+          "url": "https://www.roadarch.com/eateries/tbell.html"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "row": 3,
+      "col": 4,
+      "category": "Medium",
+      "text": "Produce stand (farmers' markets count)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 20,
+      "row": 4,
+      "col": 0,
+      "category": "Easy",
+      "text": "Any bus stop or bus station (signed school bus stops count)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 21,
+      "row": 4,
+      "col": 1,
+      "category": "Easy",
+      "text": "A left hand exit",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 22,
+      "row": 4,
+      "col": 2,
+      "category": "Easy",
+      "text": "A sign with a date on it",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 23,
+      "row": 4,
+      "col": 3,
+      "category": "Easy",
+      "text": "A sign for any highway concurrency (interstate/US highway/state highway/county road sharing the same roadway)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 24,
+      "row": 4,
+      "col": 4,
+      "category": "Medium",
+      "text": "Advertisement for, fairgrounds/sign for, or the actual event of a state or county fair",
+      "urls": [],
+      "inline_links": []
+    }
+  ]
+}
