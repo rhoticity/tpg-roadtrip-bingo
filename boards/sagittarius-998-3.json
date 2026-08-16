@@ -1,6 +1,6 @@
 {
   "username": "sagittarius-998-3",
-  "generated_at": "2026-08-15T03:50:15.421620+00:00",
+  "generated_at": "2026-08-16T00:00:15.772201+00:00",
   "cells": [
     {
       "index": 0,
@@ -161,16 +161,9 @@
       "row": 3,
       "col": 0,
       "category": "Hard",
-      "text": "Picture within or sign of US National Park (list)",
-      "urls": [
-        "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks"
-      ],
-      "inline_links": [
-        {
-          "text": "list",
-          "url": "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States#National_parks"
-        }
-      ]
+      "text": "Advertisement for a local radio station",
+      "urls": [],
+      "inline_links": []
     },
     {
       "index": 16,
