@@ -1,6 +1,6 @@
 {
   "username": "kablair2",
-  "generated_at": "2026-08-04T04:51:17.968199+00:00",
+  "generated_at": "2026-08-16T18:10:27.507893+00:00",
   "cells": [
     {
       "index": 0,
@@ -210,16 +210,9 @@
       "row": 4,
       "col": 1,
       "category": "Hard",
-      "text": "An A-frame IHOP building (can be still operating as IHOP, have another business in it, or vacant; representative examples)",
-      "urls": [
-        "https://www.roadarch.com/eateries/ihop.html"
-      ],
-      "inline_links": [
-        {
-          "text": "representative examples",
-          "url": "https://www.roadarch.com/eateries/ihop.html"
-        }
-      ]
+      "text": "Sign indicating a distance more than 250 miles",
+      "urls": [],
+      "inline_links": []
     },
     {
       "index": 22,
