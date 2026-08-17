@@ -1,6 +1,6 @@
 {
   "username": "JayVerti3",
-  "generated_at": "2026-08-03T04:27:46.370448+00:00",
+  "generated_at": "2026-08-17T23:23:16.462559+00:00",
   "cells": [
     {
       "index": 0,
@@ -86,9 +86,16 @@
       "row": 1,
       "col": 3,
       "category": "Hard",
-      "text": "A civil defense/weather siren",
-      "urls": [],
-      "inline_links": []
+      "text": "Any depiction of, or a live example of, a state tree in its state (e.g. Sabal palmetto in South Carolina; list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_trees"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_trees"
+        }
+      ]
     },
     {
       "index": 9,
