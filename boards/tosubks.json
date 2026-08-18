@@ -1,6 +1,6 @@
 {
   "username": "tosubks",
-  "generated_at": "2026-08-18T18:52:22.810591+00:00",
+  "generated_at": "2026-08-18T18:54:10.095313+00:00",
   "cells": [
     {
       "index": 0,
@@ -86,16 +86,9 @@
       "row": 1,
       "col": 3,
       "category": "Hard",
-      "text": "Any depiction of, or a live example of, a state flower in its state (e.g. California poppy in California; list)",
-      "urls": [
-        "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers"
-      ],
-      "inline_links": [
-        {
-          "text": "list",
-          "url": "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers"
-        }
-      ]
+      "text": "A drawbridge/lift bridge",
+      "urls": [],
+      "inline_links": []
     },
     {
       "index": 9,
