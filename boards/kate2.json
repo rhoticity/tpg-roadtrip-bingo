@@ -1,0 +1,250 @@
+{
+  "username": "kate2",
+  "generated_at": "2026-08-20T00:19:40.431370+00:00",
+  "cells": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "category": "Hard",
+      "text": "Any city/municipal or county flag - list ; list",
+      "urls": [
+        "https://simple.wikipedia.org/wiki/Flags_of_cities_of_the_United_States",
+        "https://commons.wikimedia.org/wiki/Flags_of_counties_and_municipalities_in_the_United_States"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://simple.wikipedia.org/wiki/Flags_of_cities_of_the_United_States"
+        },
+        {
+          "text": "list",
+          "url": "https://commons.wikimedia.org/wiki/Flags_of_counties_and_municipalities_in_the_United_States"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "category": "Easy",
+      "text": "A left hand exit",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "category": "Easy",
+      "text": "Advertisement for any beer",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "category": "Easy",
+      "text": "Any historical marker or plaque",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "col": 4,
+      "category": "Hard",
+      "text": "Any object or place claiming in visible signage or its Google Maps POI to be the World's Largest of whatever it is",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 0,
+      "category": "Easy",
+      "text": "A vehicle with three or more bumper stickers",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 1,
+      "category": "Hard",
+      "text": "A decommissioned flying vehicle (airplane, helicopter, blimp, etc.)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 2,
+      "category": "Medium",
+      "text": "A non-US national flag",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "col": 3,
+      "category": "Medium",
+      "text": "Any wild or captive amphibian or reptile",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "col": 4,
+      "category": "Easy",
+      "text": "Emergency vehicle",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 10,
+      "row": 2,
+      "col": 0,
+      "category": "Easy",
+      "text": "A sign with an elevation measurement on it",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 11,
+      "row": 2,
+      "col": 1,
+      "category": "Hard",
+      "text": "Any depiction of, or a live example of, a state bird in its state (e.g. Northern cardinal in Illinois; list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_birds"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_U.S._state_birds"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "row": 2,
+      "col": 2,
+      "category": "Free",
+      "text": "any photo of your choice",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 13,
+      "row": 2,
+      "col": 3,
+      "category": "Easy",
+      "text": "Any wild or domestic bird (in captivity accepted, live)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 14,
+      "row": 2,
+      "col": 4,
+      "category": "Easy",
+      "text": "Any bus stop or bus station (signed school bus stops count)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 15,
+      "row": 3,
+      "col": 0,
+      "category": "Easy license plate letter/number game, only one per card from this category",
+      "text": "A license plate serial containing the letter X",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 16,
+      "row": 3,
+      "col": 1,
+      "category": "Medium",
+      "text": "Any county building",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 17,
+      "row": 3,
+      "col": 2,
+      "category": "Easy",
+      "text": "A sign marking a municipality border",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 18,
+      "row": 3,
+      "col": 3,
+      "category": "Hard",
+      "text": "A train that's no longer on train tracks",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 19,
+      "row": 3,
+      "col": 4,
+      "category": "Medium",
+      "text": "A picture taken while clearly riding public transit of any kind (train/metro/subway/light rail, bus, etc.)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 20,
+      "row": 4,
+      "col": 0,
+      "category": "Easy",
+      "text": "A sign for any road named Main",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 21,
+      "row": 4,
+      "col": 1,
+      "category": "Medium",
+      "text": "Any amusement park (water parks count)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 22,
+      "row": 4,
+      "col": 2,
+      "category": "Easy",
+      "text": "A fountain (drinking or decorative)",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 23,
+      "row": 4,
+      "col": 3,
+      "category": "Medium",
+      "text": "Any depiction of Abraham Lincoln",
+      "urls": [],
+      "inline_links": []
+    },
+    {
+      "index": 24,
+      "row": 4,
+      "col": 4,
+      "category": "Medium",
+      "text": "Any farm equipment",
+      "urls": [],
+      "inline_links": []
+    }
+  ]
+}
