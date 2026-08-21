@@ -1,6 +1,6 @@
 {
   "username": "Kiribati2",
-  "generated_at": "2026-08-21T03:16:16.273755+00:00",
+  "generated_at": "2026-08-21T03:17:32.067343+00:00",
   "cells": [
     {
       "index": 0,
@@ -242,9 +242,16 @@
       "row": 4,
       "col": 4,
       "category": "Hard",
-      "text": "A horse-drawn vehicle",
-      "urls": [],
-      "inline_links": []
+      "text": "Picture within or sign of US National Monument (list)",
+      "urls": [
+        "https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments"
+      ],
+      "inline_links": [
+        {
+          "text": "list",
+          "url": "https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States#List_of_national_monuments"
+        }
+      ]
     }
   ]
 }
