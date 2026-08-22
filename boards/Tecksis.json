@@ -1,6 +1,6 @@
 {
   "username": "Tecksis",
-  "generated_at": "2026-08-18T01:36:56.789709+00:00",
+  "generated_at": "2026-08-22T00:15:16.519060+00:00",
   "cells": [
     {
       "index": 0,
@@ -84,16 +84,9 @@
       "row": 1,
       "col": 2,
       "category": "Hard",
-      "text": "A mission style Taco Bell building (can be still operating as a Taco Bell, have another business in it, or vacant; representative examples)",
-      "urls": [
-        "https://www.roadarch.com/eateries/tbell.html"
-      ],
-      "inline_links": [
-        {
-          "text": "representative examples",
-          "url": "https://www.roadarch.com/eateries/tbell.html"
-        }
-      ]
+      "text": "A civil defense/weather siren",
+      "urls": [],
+      "inline_links": []
     },
     {
       "index": 8,
